@@ -1,0 +1,38 @@
+Rk,Date,School,X4,Opponent,Type,X7,GS,MP,FG,FGA,FG%,2P,2PA,2P%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,player
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,13,1,2,0.5,1,2,0.5,0,0,NA,0,1,0,0,2,2,5,1,0,2,1,2,Junior Cadougan
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,0,14,0,1,0,0,1,0,0,0,NA,1,2,0.5,0,3,3,2,0,0,2,1,1,Junior Cadougan
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,0,16,0,2,0,0,1,0,0,1,0,1,4,0.25,0,0,0,4,1,0,1,2,1,Junior Cadougan
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,0,14,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,2,0,0,3,2,0,Junior Cadougan
+5,2010-11-22,Marquette,N,Duke,REG,L,0,22,2,3,0.667,1,1,1,1,2,0.5,0,0,NA,0,2,2,7,1,0,1,2,5,Junior Cadougan
+6,2010-11-23,Marquette,N,Gonzaga,REG,L,0,25,0,1,0,0,1,0,0,0,NA,1,2,0.5,1,2,3,1,1,0,1,2,1,Junior Cadougan
+7,2010-11-27,Marquette,@,Milwaukee,REG,W,1,30,2,4,0.5,2,3,0.667,0,1,0,0,0,NA,0,1,1,2,2,1,3,4,4,Junior Cadougan
+8,2010-12-04,Marquette,NA,Longwood,REG,W,0,21,1,2,0.5,1,2,0.5,0,0,NA,4,4,1,1,3,4,4,0,1,1,0,6,Junior Cadougan
+9,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,17,2,2,1,2,2,1,0,0,NA,1,3,0.333,0,1,1,5,0,0,2,2,5,Junior Cadougan
+10,2010-12-11,Marquette,NA,Wisconsin,REG,L,0,23,2,3,0.667,2,3,0.667,0,0,NA,1,3,0.333,1,0,1,3,0,0,2,3,5,Junior Cadougan
+11,2010-12-18,Marquette,NA,Centenary (LA),REG,W,0,23,0,1,0,0,0,NA,0,1,0,1,2,0.5,0,1,1,4,0,0,2,2,1,Junior Cadougan
+12,2010-12-29,Marquette,@,Vanderbilt,REG,L,0,10,0,1,0,0,0,NA,0,1,0,0,0,NA,0,0,0,0,0,0,1,0,0,Junior Cadougan
+13,2011-01-01,Marquette,NA,West Virginia,REG,W,0,14,1,3,0.333,1,3,0.333,0,0,NA,0,0,NA,0,1,1,1,0,0,1,0,2,Junior Cadougan
+14,2011-01-05,Marquette,@,Rutgers,REG,W,0,29,0,3,0,0,2,0,0,1,0,0,2,0,1,2,3,8,1,0,1,2,0,Junior Cadougan
+15,2011-01-08,Marquette,@,Pitt,REG,L,0,10,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,3,0,0,0,1,0,Junior Cadougan
+16,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,18,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,4,0,0,1,2,0,Junior Cadougan
+17,2011-01-15,Marquette,@,Louisville,REG,L,0,23,1,4,0.25,1,4,0.25,0,0,NA,7,8,0.875,1,3,4,1,0,0,2,3,9,Junior Cadougan
+18,2011-01-18,Marquette,NA,DePaul,REG,W,0,21,1,3,0.333,1,3,0.333,0,0,NA,2,2,1,3,2,5,3,4,0,1,3,4,Junior Cadougan
+19,2011-01-22,Marquette,@,Notre Dame,REG,L,0,22,3,6,0.5,3,6,0.5,0,0,NA,1,1,1,0,1,1,4,1,0,1,4,7,Junior Cadougan
+20,2011-01-25,Marquette,NA,UConn,REG,L,0,20,0,2,0,0,2,0,0,0,NA,2,4,0.5,0,2,2,0,3,0,2,1,2,Junior Cadougan
+21,2011-01-29,Marquette,NA,Syracuse,REG,W,0,10,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,2,0,0,2,1,0,Junior Cadougan
+22,2011-02-02,Marquette,@,Villanova,REG,L,0,21,1,2,0.5,1,2,0.5,0,0,NA,2,2,1,0,2,2,1,0,0,1,3,4,Junior Cadougan
+23,2011-02-09,Marquette,@,South Florida,REG,W,0,18,2,3,0.667,2,3,0.667,0,0,NA,0,0,NA,0,0,0,1,0,0,0,1,4,Junior Cadougan
+24,2011-02-13,Marquette,@,Georgetown,REG,L,0,16,1,1,1,1,1,1,0,0,NA,2,4,0.5,0,2,2,0,0,0,0,1,4,Junior Cadougan
+25,2011-02-15,Marquette,NA,St. John's (NY),REG,L,0,15,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,4,0,0,3,3,0,Junior Cadougan
+26,2011-02-19,Marquette,NA,Seton Hall,REG,W,1,18,2,3,0.667,2,2,1,0,1,0,0,0,NA,0,1,1,5,0,0,3,1,4,Junior Cadougan
+27,2011-02-24,Marquette,@,UConn,REG,W,1,17,2,2,1,1,1,1,1,1,1,0,0,NA,0,1,1,3,1,0,1,0,5,Junior Cadougan
+28,2011-02-27,Marquette,NA,Providence,REG,W,1,30,3,5,0.6,3,4,0.75,0,1,0,4,5,0.8,0,6,6,10,2,0,2,2,10,Junior Cadougan
+29,2011-03-02,Marquette,NA,Cincinnati,REG,L,1,23,2,4,0.5,2,3,0.667,0,1,0,0,2,0,1,0,1,2,0,0,3,0,4,Junior Cadougan
+30,2011-03-05,Marquette,@,Seton Hall,REG,L,0,19,2,6,0.333,2,6,0.333,0,0,NA,1,1,1,0,3,3,3,0,0,3,3,5,Junior Cadougan
+31,2011-03-08,Marquette,N,Providence,CTOURN,W,0,24,2,7,0.286,2,6,0.333,0,1,0,0,2,0,2,0,2,5,1,0,3,3,4,Junior Cadougan
+32,2011-03-09,Marquette,N,West Virginia,CTOURN,W,0,26,4,7,0.571,4,7,0.571,0,0,NA,7,9,0.778,0,3,3,5,0,0,1,0,15,Junior Cadougan
+33,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,23,1,7,0.143,1,7,0.143,0,0,NA,5,7,0.714,0,3,3,2,0,0,1,2,7,Junior Cadougan
+34,2011-03-18,Marquette,N,Xavier,NCAA,W,0,22,2,2,1,2,2,1,0,0,NA,1,3,0.333,0,0,0,1,0,0,3,1,5,Junior Cadougan
+35,2011-03-20,Marquette,N,Syracuse,NCAA,W,0,25,3,6,0.5,3,6,0.5,0,0,NA,3,3,1,0,2,2,3,1,0,1,3,9,Junior Cadougan
+36,2011-03-25,Marquette,N,UNC,NCAA,L,0,20,3,8,0.375,3,7,0.429,0,1,0,4,4,1,0,2,2,5,0,0,1,2,10,Junior Cadougan
+NA,36 Games,NA,NA,NA,NA,NA,5,712,46,109,0.422,44,96,0.458,2,13,0.154,51,80,0.638,11,55,66,115,20,2,58,63,145,Junior Cadougan

@@ -1,0 +1,31 @@
+Rk,Date,School,X4,Opponent,Type,X7,GS,MP,FG,FGA,FG%,2P,2PA,2P%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,player
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,12,1,1,1,1,1,1,0,0,NA,2,2,1,1,6,7,1,0,1,1,2,4,Joe Fulce
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Joe Fulce
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,0,11,2,3,0.667,2,3,0.667,0,0,NA,2,2,1,1,3,4,0,0,0,0,2,6,Joe Fulce
+4,2010-12-04,Marquette,NA,Longwood,REG,W,0,17,4,5,0.8,4,4,1,0,1,0,1,1,1,3,3,6,2,0,0,0,1,9,Joe Fulce
+5,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,11,2,3,0.667,2,3,0.667,0,0,NA,0,0,NA,0,4,4,1,0,0,0,0,4,Joe Fulce
+6,2010-12-29,Marquette,@,Vanderbilt,REG,L,0,10,1,3,0.333,1,3,0.333,0,0,NA,0,0,NA,1,1,2,0,0,0,1,1,2,Joe Fulce
+7,2011-01-01,Marquette,NA,West Virginia,REG,W,0,7,0,2,0,0,2,0,0,0,NA,0,0,NA,1,0,1,0,0,0,0,1,0,Joe Fulce
+8,2011-01-05,Marquette,@,Rutgers,REG,W,0,9,1,2,0.5,0,1,0,1,1,1,0,0,NA,1,1,2,1,0,1,0,0,3,Joe Fulce
+9,2011-01-08,Marquette,@,Pitt,REG,L,0,13,3,6,0.5,2,4,0.5,1,2,0.5,0,0,NA,0,1,1,2,0,0,0,4,7,Joe Fulce
+10,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,4,1,2,0.5,1,2,0.5,0,0,NA,0,0,NA,1,2,3,0,0,0,0,0,2,Joe Fulce
+11,2011-01-15,Marquette,@,Louisville,REG,L,0,10,2,4,0.5,2,3,0.667,0,1,0,0,0,NA,0,3,3,1,1,0,0,3,4,Joe Fulce
+12,2011-01-18,Marquette,NA,DePaul,REG,W,0,12,2,5,0.4,2,4,0.5,0,1,0,0,0,NA,0,2,2,0,0,0,0,3,4,Joe Fulce
+13,2011-01-22,Marquette,@,Notre Dame,REG,L,0,17,4,5,0.8,4,4,1,0,1,0,2,2,1,4,1,5,0,0,1,0,1,10,Joe Fulce
+14,2011-01-25,Marquette,NA,UConn,REG,L,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Joe Fulce
+15,2011-01-29,Marquette,NA,Syracuse,REG,W,0,6,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,1,0,0,Joe Fulce
+16,2011-02-02,Marquette,@,Villanova,REG,L,0,16,3,5,0.6,2,2,1,1,3,0.333,0,0,NA,1,2,3,0,1,0,0,1,7,Joe Fulce
+17,2011-02-09,Marquette,@,South Florida,REG,W,0,19,4,8,0.5,2,5,0.4,2,3,0.667,0,0,NA,1,1,2,0,1,0,0,2,10,Joe Fulce
+18,2011-02-13,Marquette,@,Georgetown,REG,L,0,2,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,1,0,Joe Fulce
+19,2011-02-15,Marquette,NA,St. John's (NY),REG,L,0,10,1,2,0.5,1,2,0.5,0,0,NA,2,2,1,0,2,2,0,0,0,1,2,4,Joe Fulce
+20,2011-02-19,Marquette,NA,Seton Hall,REG,W,1,12,0,2,0,0,1,0,0,1,0,0,0,NA,0,5,5,0,0,1,1,2,0,Joe Fulce
+21,2011-02-24,Marquette,@,UConn,REG,W,0,10,1,3,0.333,1,3,0.333,0,0,NA,0,0,NA,0,2,2,0,0,0,0,2,2,Joe Fulce
+22,2011-02-27,Marquette,NA,Providence,REG,W,0,5,2,3,0.667,2,2,1,0,1,0,2,2,1,0,1,1,0,0,0,0,1,6,Joe Fulce
+23,2011-03-02,Marquette,NA,Cincinnati,REG,L,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Joe Fulce
+24,2011-03-05,Marquette,@,Seton Hall,REG,L,0,11,1,2,0.5,0,1,0,1,1,1,2,2,1,0,0,0,2,1,0,0,2,5,Joe Fulce
+25,2011-03-09,Marquette,N,West Virginia,CTOURN,W,0,2,1,2,0.5,0,0,NA,1,2,0.5,0,0,NA,0,2,2,0,0,0,0,2,3,Joe Fulce
+26,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,1,0,0,Joe Fulce
+27,2011-03-18,Marquette,N,Xavier,NCAA,W,0,4,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,1,2,0,0,1,0,Joe Fulce
+28,2011-03-20,Marquette,N,Syracuse,NCAA,W,0,5,0,1,0,0,1,0,0,0,NA,0,0,NA,0,2,2,1,1,1,0,0,0,Joe Fulce
+29,2011-03-25,Marquette,N,UNC,NCAA,L,0,8,0,2,0,0,0,NA,0,2,0,0,0,NA,0,1,1,0,0,2,0,0,0,Joe Fulce
+NA,29 Games,NA,NA,NA,NA,NA,1,255,36,75,0.48,29,55,0.527,7,20,0.35,13,13,1,15,46,61,12,7,7,6,34,92,Joe Fulce

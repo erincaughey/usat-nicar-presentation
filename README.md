@@ -1,2 +1,2 @@
 # usat-nicar-presentation
-NICAR skill presentation for USA Today Network
+Presentation notes for USA Today Network presentation

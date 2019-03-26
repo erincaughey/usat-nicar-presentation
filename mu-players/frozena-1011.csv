@@ -1,0 +1,16 @@
+Rk,Date,School,X4,Opponent,Type,X7,GS,MP,FG,FGA,FG%,2P,2PA,2P%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,player
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,4,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,1,0,0,0,0,Robert Frozena
+2,2010-11-17,Marquette,NA,Green Bay,REG,W,0,2,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+3,2010-11-20,Marquette,NA,South Dakota,REG,W,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+4,2010-12-04,Marquette,NA,Longwood,REG,W,0,2,1,2,0.5,1,2,0.5,0,0,NA,1,2,0.5,2,0,2,0,0,0,0,1,3,Robert Frozena
+5,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,3,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,1,0,0,0,1,0,Robert Frozena
+6,2010-12-18,Marquette,NA,Centenary (LA),REG,W,0,3,0,1,0,0,0,NA,0,1,0,2,2,1,0,0,0,0,0,0,0,1,2,Robert Frozena
+7,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,0,0,0,0,0,0,Robert Frozena
+8,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+9,2011-01-18,Marquette,NA,DePaul,REG,W,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,0,0,0,0,0,0,Robert Frozena
+10,2011-02-27,Marquette,NA,Providence,REG,W,0,2,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+11,2011-03-08,Marquette,N,Providence,CTOURN,W,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+12,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+13,2011-03-18,Marquette,N,Xavier,NCAA,W,0,1,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+14,2011-03-25,Marquette,N,UNC,NCAA,L,0,1,1,1,1,0,0,NA,1,1,1,0,0,NA,0,0,0,0,0,0,0,0,3,Robert Frozena
+NA,14 Games,NA,NA,NA,NA,NA,0,26,2,8,0.25,1,6,0.167,1,2,0.5,3,4,0.75,2,2,4,1,1,0,0,3,8,Robert Frozena

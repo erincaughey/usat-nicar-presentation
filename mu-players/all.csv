@@ -1,0 +1,384 @@
+game,date,School,home_away,opponent,type,win_loss,GS,MP,FG,FGA,FG%,2P,2PA,2P%,3P,3PA,3P%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS,player
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,4,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,1,0,0,0,0,Robert Frozena
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,8,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,1,1,0,1,0,0,Jamail Jones
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,12,1,1,1,1,1,1,0,0,NA,2,2,1,1,6,7,1,0,1,1,2,4,Joe Fulce
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,13,1,2,0.5,1,2,0.5,0,0,NA,0,1,0,0,2,2,5,1,0,2,1,2,Junior Cadougan
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,13,7,7,1,7,7,1,0,0,NA,3,3,1,2,3,5,0,0,2,1,1,17,Davante Gardner
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,15,5,8,0.625,5,8,0.625,0,0,NA,1,4,0.25,4,3,7,0,0,0,0,0,11,Jae Crowder
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,21,4,10,0.4,3,7,0.429,1,3,0.333,4,5,0.8,1,1,2,2,1,0,1,1,13,Darius Johnson-Odom
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,0,22,3,7,0.429,1,3,0.333,2,4,0.5,1,3,0.333,1,1,2,7,0,0,2,2,9,Dwight Buycks
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,1,9,1,3,0.333,1,1,1,0,2,0,0,2,0,0,3,3,0,0,1,3,2,2,Reggie Smith
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,1,10,1,1,1,1,1,1,0,0,NA,0,0,NA,0,2,2,1,1,1,0,0,2,Chris Otule
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,1,19,4,6,0.667,4,6,0.667,0,0,NA,4,4,1,0,3,3,0,1,0,0,4,12,Erik Williams
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,1,26,7,12,0.583,7,11,0.636,0,1,0,4,5,0.8,3,3,6,3,2,3,2,2,18,Jimmy Butler
+1,2010-11-12,Marquette,NA,Prairie View,REG,W,1,28,2,3,0.667,2,3,0.667,0,0,NA,3,6,0.5,3,4,7,5,4,3,4,3,7,Vander Blue
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Joe Fulce
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,0,12,4,6,0.667,4,6,0.667,0,0,NA,3,4,0.75,2,5,7,0,0,0,1,1,11,Davante Gardner
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,0,14,0,1,0,0,1,0,0,0,NA,1,2,0.5,0,3,3,2,0,0,2,1,1,Junior Cadougan
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,0,21,2,6,0.333,2,3,0.667,0,3,0,4,6,0.667,0,2,2,2,2,0,4,4,8,Darius Johnson-Odom
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,0,28,2,4,0.5,2,3,0.667,0,1,0,6,9,0.667,2,8,10,1,0,0,1,4,10,Jae Crowder
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,0,31,4,6,0.667,1,3,0.333,3,3,1,6,6,1,1,2,3,3,1,1,3,2,17,Dwight Buycks
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,1,3,0,0,NA,0,0,NA,0,0,NA,0,0,NA,1,0,1,0,1,0,0,1,0,Erik Williams
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,1,11,2,3,0.667,2,3,0.667,0,0,NA,0,0,NA,0,2,2,0,1,0,0,0,4,Chris Otule
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,1,13,1,2,0.5,1,1,1,0,1,0,0,0,NA,0,1,1,1,2,0,0,0,2,Reggie Smith
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,1,26,3,8,0.375,2,5,0.4,1,3,0.333,1,2,0.5,0,0,0,2,2,0,1,2,8,Vander Blue
+2,2010-11-14,Marquette,NA,Bucknell,REG,W,1,38,4,11,0.364,3,9,0.333,1,2,0.5,2,5,0.4,1,4,5,1,2,0,2,0,11,Jimmy Butler
+2,2010-11-17,Marquette,NA,Green Bay,REG,W,0,2,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+2,2010-11-17,Marquette,NA,Green Bay,REG,W,0,3,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,0,0,0,0,0,0,Jamail Jones
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,0,6,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,2,0,0,Reggie Smith
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,0,9,1,1,1,1,1,1,0,0,NA,0,0,NA,0,2,2,0,0,0,2,1,2,Erik Williams
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,0,11,2,3,0.667,2,3,0.667,0,0,NA,2,2,1,1,3,4,0,0,0,0,2,6,Joe Fulce
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,0,11,3,6,0.5,3,6,0.5,0,0,NA,5,8,0.625,2,1,3,2,0,1,0,4,11,Davante Gardner
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,0,16,0,2,0,0,1,0,0,1,0,1,4,0.25,0,0,0,4,1,0,1,2,1,Junior Cadougan
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,0,24,7,11,0.636,6,10,0.6,1,1,1,2,4,0.5,5,4,9,1,2,1,1,1,17,Jae Crowder
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,1,11,1,2,0.5,1,2,0.5,0,0,NA,0,0,NA,1,1,2,0,0,4,0,3,2,Chris Otule
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,1,23,7,10,0.7,7,9,0.778,0,1,0,0,1,0,1,2,3,2,1,0,2,3,14,Vander Blue
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,1,25,5,8,0.625,3,5,0.6,2,3,0.667,0,0,NA,2,1,3,6,2,0,1,0,12,Dwight Buycks
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,1,28,3,7,0.429,3,7,0.429,0,0,NA,7,7,1,0,4,4,2,0,0,1,2,13,Jimmy Butler
+3,2010-11-17,Marquette,NA,Green Bay,REG,W,1,31,3,9,0.333,2,7,0.286,1,2,0.5,4,7,0.571,0,5,5,2,0,1,3,2,11,Darius Johnson-Odom
+3,2010-11-20,Marquette,NA,South Dakota,REG,W,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+3,2010-11-20,Marquette,NA,South Dakota,REG,W,0,14,1,2,0.5,1,1,1,0,1,0,0,0,NA,0,2,2,1,1,0,2,2,2,Jamail Jones
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,0,2,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Davante Gardner
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,0,9,0,0,NA,0,0,NA,0,0,NA,2,4,0.5,1,0,1,2,1,0,1,0,2,Reggie Smith
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,0,9,2,2,1,2,2,1,0,0,NA,0,0,NA,1,3,4,0,0,0,1,0,4,Erik Williams
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,0,14,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,2,0,0,3,2,0,Junior Cadougan
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,0,17,3,5,0.6,2,4,0.5,1,1,1,0,0,NA,1,6,7,1,0,2,0,2,7,Jae Crowder
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,1,15,6,8,0.75,6,8,0.75,0,0,NA,3,7,0.429,3,5,8,0,0,2,2,3,15,Chris Otule
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,1,26,6,11,0.545,6,10,0.6,0,1,0,8,10,0.8,6,3,9,4,3,0,1,0,20,Jimmy Butler
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,1,28,5,11,0.455,5,10,0.5,0,1,0,1,1,1,1,6,7,3,1,0,3,1,11,Dwight Buycks
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,1,32,3,10,0.3,3,9,0.333,0,1,0,1,4,0.25,3,2,5,6,1,0,1,3,7,Vander Blue
+4,2010-11-20,Marquette,NA,South Dakota,REG,W,1,33,3,9,0.333,3,5,0.6,0,4,0,8,8,1,1,2,3,3,0,0,2,2,14,Darius Johnson-Odom
+4,2010-12-04,Marquette,NA,Longwood,REG,W,0,2,1,2,0.5,1,2,0.5,0,0,NA,1,2,0.5,2,0,2,0,0,0,0,1,3,Robert Frozena
+4,2010-12-04,Marquette,NA,Longwood,REG,W,0,6,0,2,0,0,1,0,0,1,0,0,0,NA,0,1,1,0,0,0,1,1,0,Jamail Jones
+4,2010-12-04,Marquette,NA,Longwood,REG,W,0,17,4,5,0.8,4,4,1,0,1,0,1,1,1,3,3,6,2,0,0,0,1,9,Joe Fulce
+5,2010-11-22,Marquette,N,Duke,REG,L,0,15,4,7,0.571,4,7,0.571,0,0,NA,1,2,0.5,4,0,4,0,1,0,2,1,9,Davante Gardner
+5,2010-11-22,Marquette,N,Duke,REG,L,0,22,2,3,0.667,1,1,1,1,2,0.5,0,0,NA,0,2,2,7,1,0,1,2,5,Junior Cadougan
+5,2010-11-22,Marquette,N,Duke,REG,L,0,30,6,11,0.545,5,7,0.714,1,4,0.25,2,2,1,0,3,3,1,4,0,1,2,15,Jae Crowder
+5,2010-11-22,Marquette,N,Duke,REG,L,1,11,2,3,0.667,2,3,0.667,0,0,NA,0,0,NA,3,0,3,0,0,1,2,2,4,Chris Otule
+5,2010-11-22,Marquette,N,Duke,REG,L,1,23,2,6,0.333,2,3,0.667,0,3,0,0,2,0,3,2,5,1,0,0,3,2,4,Dwight Buycks
+5,2010-11-22,Marquette,N,Duke,REG,L,1,25,2,6,0.333,1,3,0.333,1,3,0.333,0,0,NA,0,4,4,1,2,0,1,1,5,Vander Blue
+5,2010-11-22,Marquette,N,Duke,REG,L,1,36,4,15,0.267,3,9,0.333,1,6,0.167,4,5,0.8,0,6,6,2,1,0,2,3,13,Darius Johnson-Odom
+5,2010-11-22,Marquette,N,Duke,REG,L,1,38,9,19,0.474,9,17,0.529,0,2,0,4,6,0.667,1,5,6,1,2,0,2,3,22,Jimmy Butler
+5,2010-11-23,Marquette,N,Gonzaga,REG,L,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,1,0,1,0,0,0,1,0,0,Reggie Smith
+5,2010-11-27,Marquette,@,Milwaukee,REG,W,0,6,1,2,0.5,1,1,1,0,1,0,0,0,NA,0,0,0,0,0,0,0,0,2,Erik Williams
+5,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,3,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,1,0,0,0,1,0,Robert Frozena
+5,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,10,0,1,0,0,1,0,0,0,NA,0,0,NA,1,1,2,0,0,0,0,0,0,Jamail Jones
+5,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,11,2,3,0.667,2,3,0.667,0,0,NA,0,0,NA,0,4,4,1,0,0,0,0,4,Joe Fulce
+6,2010-11-23,Marquette,N,Gonzaga,REG,L,0,7,0,2,0,0,2,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,1,0,Davante Gardner
+6,2010-11-23,Marquette,N,Gonzaga,REG,L,0,25,0,1,0,0,1,0,0,0,NA,1,2,0.5,1,2,3,1,1,0,1,2,1,Junior Cadougan
+6,2010-11-23,Marquette,N,Gonzaga,REG,L,0,32,4,9,0.444,3,7,0.429,1,2,0.5,1,2,0.5,1,3,4,1,5,1,0,1,10,Jae Crowder
+6,2010-11-23,Marquette,N,Gonzaga,REG,L,1,16,2,2,1,2,2,1,0,0,NA,0,0,NA,0,2,2,0,0,1,0,4,4,Chris Otule
+6,2010-11-23,Marquette,N,Gonzaga,REG,L,1,24,1,7,0.143,1,5,0.2,0,2,0,2,2,1,1,3,4,2,2,0,3,2,4,Vander Blue
+6,2010-11-23,Marquette,N,Gonzaga,REG,L,1,25,4,12,0.333,2,5,0.4,2,7,0.286,3,4,0.75,0,4,4,1,0,0,1,4,13,Darius Johnson-Odom
+6,2010-11-23,Marquette,N,Gonzaga,REG,L,1,32,3,8,0.375,2,3,0.667,1,5,0.2,2,2,1,0,2,2,6,0,0,4,3,9,Dwight Buycks
+6,2010-11-23,Marquette,N,Gonzaga,REG,L,1,38,7,13,0.538,5,8,0.625,2,5,0.4,6,9,0.667,2,4,6,1,0,0,0,2,22,Jimmy Butler
+6,2010-12-04,Marquette,NA,Longwood,REG,W,0,4,0,2,0,0,2,0,0,0,NA,0,0,NA,1,0,1,0,0,0,1,0,0,Erik Williams
+6,2010-12-04,Marquette,NA,Longwood,REG,W,1,17,2,2,1,1,1,1,1,1,1,0,0,NA,0,2,2,5,1,1,2,2,5,Reggie Smith
+6,2010-12-11,Marquette,NA,Wisconsin,REG,L,0,2,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,1,0,0,0,0,Jamail Jones
+6,2010-12-18,Marquette,NA,Centenary (LA),REG,W,0,3,0,1,0,0,0,NA,0,1,0,2,2,1,0,0,0,0,0,0,0,1,2,Robert Frozena
+6,2010-12-29,Marquette,@,Vanderbilt,REG,L,0,10,1,3,0.333,1,3,0.333,0,0,NA,0,0,NA,1,1,2,0,0,0,1,1,2,Joe Fulce
+7,2010-11-27,Marquette,@,Milwaukee,REG,W,0,20,3,6,0.5,2,3,0.667,1,3,0.333,2,4,0.5,1,5,6,1,1,0,0,3,9,Jae Crowder
+7,2010-11-27,Marquette,@,Milwaukee,REG,W,0,20,3,7,0.429,2,5,0.4,1,2,0.5,0,0,NA,0,1,1,0,1,0,2,2,7,Vander Blue
+7,2010-11-27,Marquette,@,Milwaukee,REG,W,1,19,2,2,1,2,2,1,0,0,NA,0,0,NA,0,2,2,1,0,4,1,3,4,Chris Otule
+7,2010-11-27,Marquette,@,Milwaukee,REG,W,1,30,2,4,0.5,2,3,0.667,0,1,0,0,0,NA,0,1,1,2,2,1,3,4,4,Junior Cadougan
+7,2010-11-27,Marquette,@,Milwaukee,REG,W,1,35,3,8,0.375,2,4,0.5,1,4,0.25,0,0,NA,0,5,5,6,5,0,3,0,7,Dwight Buycks
+7,2010-11-27,Marquette,@,Milwaukee,REG,W,1,35,3,9,0.333,3,8,0.375,0,1,0,7,8,0.875,1,1,2,2,1,0,3,1,13,Jimmy Butler
+7,2010-11-27,Marquette,@,Milwaukee,REG,W,1,35,10,14,0.714,5,7,0.714,5,7,0.714,4,4,1,0,4,4,3,0,0,1,2,29,Darius Johnson-Odom
+7,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,8,0,2,0,0,2,0,0,0,NA,0,2,0,0,0,0,0,0,0,0,2,0,Erik Williams
+7,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,15,4,7,0.571,4,7,0.571,0,0,NA,2,4,0.5,2,1,3,1,1,0,0,2,10,Davante Gardner
+7,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,1,18,0,2,0,0,2,0,0,0,NA,0,0,NA,1,2,3,5,5,0,1,0,0,Reggie Smith
+7,2010-12-18,Marquette,NA,Centenary (LA),REG,W,0,11,4,6,0.667,1,2,0.5,3,4,0.75,0,0,NA,1,0,1,0,0,1,2,3,11,Jamail Jones
+7,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,0,0,0,0,0,0,Robert Frozena
+7,2011-01-01,Marquette,NA,West Virginia,REG,W,0,7,0,2,0,0,2,0,0,0,NA,0,0,NA,1,0,1,0,0,0,0,1,0,Joe Fulce
+8,2010-12-04,Marquette,NA,Longwood,REG,W,0,21,1,2,0.5,1,2,0.5,0,0,NA,4,4,1,1,3,4,4,0,1,1,0,6,Junior Cadougan
+8,2010-12-04,Marquette,NA,Longwood,REG,W,0,22,4,7,0.571,3,4,0.75,1,3,0.333,1,2,0.5,2,4,6,3,3,1,1,1,10,Jae Crowder
+8,2010-12-04,Marquette,NA,Longwood,REG,W,0,25,4,8,0.5,4,8,0.5,0,0,NA,4,4,1,0,0,0,2,1,0,4,1,12,Vander Blue
+8,2010-12-04,Marquette,NA,Longwood,REG,W,1,19,9,9,1,9,9,1,0,0,NA,1,3,0.333,1,4,5,0,0,3,0,4,19,Chris Otule
+8,2010-12-04,Marquette,NA,Longwood,REG,W,1,20,6,14,0.429,5,8,0.625,1,6,0.167,1,2,0.5,0,5,5,3,0,0,0,2,14,Darius Johnson-Odom
+8,2010-12-04,Marquette,NA,Longwood,REG,W,1,22,2,7,0.286,2,7,0.286,0,0,NA,4,4,1,3,8,11,1,1,0,2,0,8,Jimmy Butler
+8,2010-12-04,Marquette,NA,Longwood,REG,W,1,25,5,10,0.5,5,8,0.625,0,2,0,0,0,NA,1,3,4,5,1,0,1,1,10,Dwight Buycks
+8,2010-12-11,Marquette,NA,Wisconsin,REG,L,0,2,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Erik Williams
+8,2010-12-11,Marquette,NA,Wisconsin,REG,L,0,18,2,2,1,2,2,1,0,0,NA,5,6,0.833,0,3,3,0,1,0,0,0,9,Davante Gardner
+8,2010-12-11,Marquette,NA,Wisconsin,REG,L,1,6,0,1,0,0,1,0,0,0,NA,0,0,NA,1,0,1,0,0,0,3,0,0,Reggie Smith
+8,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,0,13,1,6,0.167,1,4,0.25,0,2,0,3,3,1,2,1,3,1,1,0,1,0,5,Jamail Jones
+8,2011-01-05,Marquette,@,Rutgers,REG,W,0,9,1,2,0.5,0,1,0,1,1,1,0,0,NA,1,1,2,1,0,1,0,0,3,Joe Fulce
+8,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+9,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,17,2,2,1,2,2,1,0,0,NA,1,3,0.333,0,1,1,5,0,0,2,2,5,Junior Cadougan
+9,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,0,22,6,11,0.545,4,6,0.667,2,5,0.4,1,1,1,3,2,5,0,0,1,0,1,15,Jae Crowder
+9,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,1,11,1,3,0.333,1,3,0.333,0,0,NA,2,2,1,1,2,3,1,1,1,0,3,4,Chris Otule
+9,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,1,24,4,9,0.444,3,5,0.6,1,4,0.25,3,4,0.75,0,1,1,2,1,0,3,1,12,Darius Johnson-Odom
+9,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,1,29,9,13,0.692,8,11,0.727,1,2,0.5,2,2,1,0,5,5,4,3,2,2,2,21,Vander Blue
+9,2010-12-07,Marquette,NA,Texas A&M-Corpus Christi,REG,W,1,32,5,7,0.714,4,5,0.8,1,2,0.5,4,4,1,6,3,9,3,2,0,0,0,15,Jimmy Butler
+9,2010-12-11,Marquette,NA,Wisconsin,REG,L,0,26,6,8,0.75,5,7,0.714,1,1,1,0,0,NA,0,3,3,3,0,0,1,3,13,Dwight Buycks
+9,2010-12-18,Marquette,NA,Centenary (LA),REG,W,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,1,0,1,0,0,0,0,1,0,Davante Gardner
+9,2010-12-18,Marquette,NA,Centenary (LA),REG,W,0,23,3,9,0.333,3,9,0.333,0,0,NA,1,1,1,5,5,10,0,1,0,0,1,7,Erik Williams
+9,2011-01-08,Marquette,@,Pitt,REG,L,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Jamail Jones
+9,2011-01-08,Marquette,@,Pitt,REG,L,0,13,3,6,0.5,2,4,0.5,1,2,0.5,0,0,NA,0,1,1,2,0,0,0,4,7,Joe Fulce
+9,2011-01-18,Marquette,NA,DePaul,REG,W,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,0,0,0,0,0,0,Robert Frozena
+10,2010-12-11,Marquette,NA,Wisconsin,REG,L,0,22,3,4,0.75,2,3,0.667,1,1,1,0,0,NA,1,4,5,1,0,1,2,2,7,Jae Crowder
+10,2010-12-11,Marquette,NA,Wisconsin,REG,L,0,23,2,3,0.667,2,3,0.667,0,0,NA,1,3,0.333,1,0,1,3,0,0,2,3,5,Junior Cadougan
+10,2010-12-11,Marquette,NA,Wisconsin,REG,L,1,8,0,1,0,0,1,0,0,0,NA,0,0,NA,1,0,1,0,0,3,0,1,0,Chris Otule
+10,2010-12-11,Marquette,NA,Wisconsin,REG,L,1,27,1,9,0.111,1,6,0.167,0,3,0,6,6,1,3,2,5,0,1,0,1,2,8,Darius Johnson-Odom
+10,2010-12-11,Marquette,NA,Wisconsin,REG,L,1,29,2,4,0.5,2,3,0.667,0,1,0,3,4,0.75,0,3,3,1,1,0,0,2,7,Vander Blue
+10,2010-12-11,Marquette,NA,Wisconsin,REG,L,1,37,6,14,0.429,4,11,0.364,2,3,0.667,1,3,0.333,2,2,4,2,1,0,1,4,15,Jimmy Butler
+10,2010-12-18,Marquette,NA,Centenary (LA),REG,W,1,30,3,5,0.6,3,3,1,0,2,0,2,2,1,0,3,3,5,3,0,3,3,8,Dwight Buycks
+10,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,0,12,3,5,0.6,3,5,0.6,0,0,NA,1,1,1,0,3,3,1,0,0,1,2,7,Davante Gardner
+10,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,0,14,4,7,0.571,4,7,0.571,0,0,NA,0,0,NA,3,1,4,0,0,0,1,4,8,Erik Williams
+10,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,2,0,1,0,0,0,NA,0,1,0,0,0,NA,0,0,0,0,0,0,0,0,0,Jamail Jones
+10,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,4,1,2,0.5,1,2,0.5,0,0,NA,0,0,NA,1,2,3,0,0,0,0,0,2,Joe Fulce
+10,2011-02-27,Marquette,NA,Providence,REG,W,0,2,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+11,2010-12-18,Marquette,NA,Centenary (LA),REG,W,0,9,0,2,0,0,2,0,0,0,NA,2,5,0.4,3,0,3,0,0,0,2,2,2,Chris Otule
+11,2010-12-18,Marquette,NA,Centenary (LA),REG,W,0,23,0,1,0,0,0,NA,0,1,0,1,2,0.5,0,1,1,4,0,0,2,2,1,Junior Cadougan
+11,2010-12-18,Marquette,NA,Centenary (LA),REG,W,1,16,3,10,0.3,2,6,0.333,1,4,0.25,1,2,0.5,4,2,6,0,2,2,1,2,8,Jae Crowder
+11,2010-12-18,Marquette,NA,Centenary (LA),REG,W,1,20,7,13,0.538,6,8,0.75,1,5,0.2,1,2,0.5,0,1,1,2,1,1,2,3,16,Darius Johnson-Odom
+11,2010-12-18,Marquette,NA,Centenary (LA),REG,W,1,31,3,9,0.333,3,9,0.333,0,0,NA,4,5,0.8,2,10,12,2,1,2,0,1,10,Jimmy Butler
+11,2010-12-18,Marquette,NA,Centenary (LA),REG,W,1,31,8,10,0.8,8,10,0.8,0,0,NA,0,1,0,3,6,9,5,1,0,3,2,16,Vander Blue
+11,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,1,28,1,5,0.2,1,3,0.333,0,2,0,5,5,1,1,2,3,7,5,0,1,3,7,Dwight Buycks
+11,2010-12-29,Marquette,@,Vanderbilt,REG,L,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,1,0,0,0,0,0,Erik Williams
+11,2010-12-29,Marquette,@,Vanderbilt,REG,L,0,3,1,1,1,1,1,1,0,0,NA,0,0,NA,0,0,0,0,0,0,0,1,2,Davante Gardner
+11,2011-01-15,Marquette,@,Louisville,REG,L,0,10,2,4,0.5,2,3,0.667,0,1,0,0,0,NA,0,3,3,1,1,0,0,3,4,Joe Fulce
+11,2011-01-18,Marquette,NA,DePaul,REG,W,0,4,0,2,0,0,0,NA,0,2,0,0,0,NA,0,1,1,0,0,0,0,0,0,Jamail Jones
+11,2011-03-08,Marquette,N,Providence,CTOURN,W,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+12,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,0,10,1,1,1,1,1,1,0,0,NA,0,0,NA,0,4,4,0,0,0,0,2,2,Chris Otule
+12,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,1,28,6,8,0.75,6,7,0.857,0,1,0,5,6,0.833,1,3,4,3,1,0,4,1,17,Jimmy Butler
+12,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,1,28,8,15,0.533,5,11,0.455,3,4,0.75,3,5,0.6,2,3,5,3,2,1,0,0,22,Jae Crowder
+12,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,1,32,3,8,0.375,3,8,0.375,0,0,NA,9,11,0.818,0,2,2,5,3,2,3,2,15,Vander Blue
+12,2010-12-21,Marquette,NA,Mississippi Valley State,REG,W,1,32,7,12,0.583,2,5,0.4,5,7,0.714,0,0,NA,1,5,6,6,0,1,0,1,19,Darius Johnson-Odom
+12,2010-12-29,Marquette,@,Vanderbilt,REG,L,0,10,0,1,0,0,0,NA,0,1,0,0,0,NA,0,0,0,0,0,0,1,0,0,Junior Cadougan
+12,2010-12-29,Marquette,@,Vanderbilt,REG,L,1,34,6,9,0.667,5,7,0.714,1,2,0.5,0,0,NA,0,4,4,4,2,0,4,2,13,Dwight Buycks
+12,2011-01-05,Marquette,@,Rutgers,REG,W,0,8,0,1,0,0,1,0,0,0,NA,1,2,0.5,2,0,2,1,0,1,2,2,1,Davante Gardner
+12,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,2,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Erik Williams
+12,2011-01-18,Marquette,NA,DePaul,REG,W,0,12,2,5,0.4,2,4,0.5,0,1,0,0,0,NA,0,2,2,0,0,0,0,3,4,Joe Fulce
+12,2011-02-13,Marquette,@,Georgetown,REG,L,0,2,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,0,0,0,0,0,0,Jamail Jones
+12,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+13,2010-12-29,Marquette,@,Vanderbilt,REG,L,0,22,4,9,0.444,4,7,0.571,0,2,0,2,3,0.667,0,2,2,3,2,0,0,3,10,Vander Blue
+13,2010-12-29,Marquette,@,Vanderbilt,REG,L,1,20,6,7,0.857,6,7,0.857,0,0,NA,0,1,0,1,1,2,0,0,1,1,4,12,Chris Otule
+13,2010-12-29,Marquette,@,Vanderbilt,REG,L,1,27,5,12,0.417,3,8,0.375,2,4,0.5,2,5,0.4,0,3,3,5,0,0,2,3,14,Darius Johnson-Odom
+13,2010-12-29,Marquette,@,Vanderbilt,REG,L,1,35,3,6,0.5,3,4,0.75,0,2,0,2,2,1,4,7,11,2,1,1,2,1,8,Jae Crowder
+13,2010-12-29,Marquette,@,Vanderbilt,REG,L,1,38,6,9,0.667,4,6,0.667,2,3,0.667,1,2,0.5,0,4,4,2,1,0,0,1,15,Jimmy Butler
+13,2011-01-01,Marquette,NA,West Virginia,REG,W,0,14,1,3,0.333,1,3,0.333,0,0,NA,0,0,NA,0,1,1,1,0,0,1,0,2,Junior Cadougan
+13,2011-01-01,Marquette,NA,West Virginia,REG,W,1,27,4,8,0.5,3,4,0.75,1,4,0.25,0,0,NA,0,3,3,4,0,1,1,4,9,Dwight Buycks
+13,2011-01-08,Marquette,@,Pitt,REG,L,0,8,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Davante Gardner
+13,2011-01-15,Marquette,@,Louisville,REG,L,0,1,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,1,0,Erik Williams
+13,2011-01-22,Marquette,@,Notre Dame,REG,L,0,17,4,5,0.8,4,4,1,0,1,0,2,2,1,4,1,5,0,0,1,0,1,10,Joe Fulce
+13,2011-02-27,Marquette,NA,Providence,REG,W,0,4,0,1,0,0,0,NA,0,1,0,0,0,NA,0,0,0,0,0,0,1,0,0,Jamail Jones
+13,2011-03-18,Marquette,N,Xavier,NCAA,W,0,1,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Robert Frozena
+14,2011-01-01,Marquette,NA,West Virginia,REG,W,0,20,2,5,0.4,2,5,0.4,0,0,NA,2,2,1,1,4,5,4,0,0,1,1,6,Vander Blue
+14,2011-01-01,Marquette,NA,West Virginia,REG,W,1,29,1,6,0.167,1,6,0.167,0,0,NA,0,0,NA,3,0,3,0,0,1,2,2,2,Chris Otule
+14,2011-01-01,Marquette,NA,West Virginia,REG,W,1,29,8,15,0.533,6,10,0.6,2,5,0.4,3,6,0.5,2,2,4,2,2,0,3,3,21,Darius Johnson-Odom
+14,2011-01-01,Marquette,NA,West Virginia,REG,W,1,35,2,4,0.5,2,4,0.5,0,0,NA,6,8,0.75,1,6,7,6,2,2,1,0,10,Jimmy Butler
+14,2011-01-01,Marquette,NA,West Virginia,REG,W,1,39,12,14,0.857,10,10,1,2,4,0.5,3,5,0.6,5,3,8,5,4,1,1,1,29,Jae Crowder
+14,2011-01-05,Marquette,@,Rutgers,REG,W,0,29,0,3,0,0,2,0,0,1,0,0,2,0,1,2,3,8,1,0,1,2,0,Junior Cadougan
+14,2011-01-05,Marquette,@,Rutgers,REG,W,1,11,0,0,NA,0,0,NA,0,0,NA,0,2,0,0,1,1,1,0,0,0,0,0,Dwight Buycks
+14,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,3,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Davante Gardner
+14,2011-01-18,Marquette,NA,DePaul,REG,W,0,3,0,0,NA,0,0,NA,0,0,NA,1,2,0.5,0,0,0,0,0,0,0,0,1,Erik Williams
+14,2011-01-25,Marquette,NA,UConn,REG,L,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Joe Fulce
+14,2011-03-05,Marquette,@,Seton Hall,REG,L,0,5,1,2,0.5,1,1,1,0,1,0,0,0,NA,1,0,1,0,0,0,0,2,2,Jamail Jones
+14,2011-03-25,Marquette,N,UNC,NCAA,L,0,1,1,1,1,0,0,NA,1,1,1,0,0,NA,0,0,0,0,0,0,0,0,3,Robert Frozena
+15,2011-01-05,Marquette,@,Rutgers,REG,W,0,30,2,4,0.5,2,4,0.5,0,0,NA,2,5,0.4,2,3,5,0,1,0,3,1,6,Vander Blue
+15,2011-01-05,Marquette,@,Rutgers,REG,W,1,8,0,0,NA,0,0,NA,0,0,NA,3,4,0.75,0,1,1,0,1,0,3,3,3,Chris Otule
+15,2011-01-05,Marquette,@,Rutgers,REG,W,1,32,6,12,0.5,3,6,0.5,3,6,0.5,0,0,NA,3,4,7,0,1,0,1,4,15,Jae Crowder
+15,2011-01-05,Marquette,@,Rutgers,REG,W,1,36,9,14,0.643,4,6,0.667,5,8,0.625,6,8,0.75,0,0,0,2,0,1,3,1,29,Darius Johnson-Odom
+15,2011-01-05,Marquette,@,Rutgers,REG,W,1,37,4,7,0.571,4,7,0.571,0,0,NA,8,9,0.889,2,4,6,0,1,0,3,0,16,Jimmy Butler
+15,2011-01-08,Marquette,@,Pitt,REG,L,0,10,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,3,0,0,0,1,0,Junior Cadougan
+15,2011-01-08,Marquette,@,Pitt,REG,L,1,32,6,9,0.667,3,5,0.6,3,4,0.75,4,5,0.8,3,1,4,3,0,0,0,1,19,Dwight Buycks
+15,2011-01-15,Marquette,@,Louisville,REG,L,0,2,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,1,0,0,Davante Gardner
+15,2011-01-29,Marquette,NA,Syracuse,REG,W,0,6,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,1,0,0,Joe Fulce
+15,2011-02-24,Marquette,@,UConn,REG,W,1,7,0,1,0,0,1,0,0,0,NA,0,0,NA,1,1,2,0,0,0,0,0,0,Erik Williams
+15,2011-03-08,Marquette,N,Providence,CTOURN,W,0,5,1,1,1,0,0,NA,1,1,1,0,0,NA,0,0,0,0,0,0,0,0,3,Jamail Jones
+16,2011-01-08,Marquette,@,Pitt,REG,L,0,21,1,5,0.2,1,4,0.25,0,1,0,2,3,0.667,1,2,3,1,0,0,0,4,4,Vander Blue
+16,2011-01-08,Marquette,@,Pitt,REG,L,1,13,1,1,1,1,1,1,0,0,NA,2,2,1,0,0,0,0,1,0,0,3,4,Chris Otule
+16,2011-01-08,Marquette,@,Pitt,REG,L,1,28,4,12,0.333,2,6,0.333,2,6,0.333,0,2,0,4,3,7,1,0,0,2,4,10,Jae Crowder
+16,2011-01-08,Marquette,@,Pitt,REG,L,1,35,8,18,0.444,7,12,0.583,1,6,0.167,3,5,0.6,2,1,3,5,0,0,0,5,20,Darius Johnson-Odom
+16,2011-01-08,Marquette,@,Pitt,REG,L,1,39,4,13,0.308,4,12,0.333,0,1,0,9,10,0.9,5,2,7,1,0,0,0,1,17,Jimmy Butler
+16,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,18,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,4,0,0,1,2,0,Junior Cadougan
+16,2011-01-10,Marquette,NA,Notre Dame,REG,W,1,34,7,9,0.778,2,4,0.5,5,5,1,2,2,1,1,3,4,1,1,0,4,0,21,Dwight Buycks
+16,2011-01-18,Marquette,NA,DePaul,REG,W,0,4,0,0,NA,0,0,NA,0,0,NA,0,0,NA,1,0,1,0,0,0,1,0,0,Davante Gardner
+16,2011-02-02,Marquette,@,Villanova,REG,L,0,16,3,5,0.6,2,2,1,1,3,0.333,0,0,NA,1,2,3,0,1,0,0,1,7,Joe Fulce
+16,2011-02-27,Marquette,NA,Providence,REG,W,1,12,3,5,0.6,3,5,0.6,0,0,NA,0,0,NA,3,2,5,0,0,0,2,1,6,Erik Williams
+16,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,17,1,3,0.333,1,2,0.5,0,1,0,2,2,1,2,5,7,0,2,0,0,2,4,Jamail Jones
+17,2011-01-10,Marquette,NA,Notre Dame,REG,W,0,20,0,3,0,0,3,0,0,0,NA,2,4,0.5,1,2,3,2,0,0,2,2,2,Vander Blue
+17,2011-01-10,Marquette,NA,Notre Dame,REG,W,1,18,3,4,0.75,3,4,0.75,0,0,NA,2,4,0.5,1,2,3,0,0,2,1,3,8,Chris Otule
+17,2011-01-10,Marquette,NA,Notre Dame,REG,W,1,27,4,9,0.444,1,4,0.25,3,5,0.6,2,2,1,0,2,2,5,1,0,3,4,13,Darius Johnson-Odom
+17,2011-01-10,Marquette,NA,Notre Dame,REG,W,1,34,6,12,0.5,2,6,0.333,4,6,0.667,2,2,1,1,6,7,1,1,0,0,3,18,Jae Crowder
+17,2011-01-10,Marquette,NA,Notre Dame,REG,W,1,37,5,8,0.625,5,8,0.625,0,0,NA,5,7,0.714,3,3,6,4,1,0,1,2,15,Jimmy Butler
+17,2011-01-15,Marquette,@,Louisville,REG,L,0,23,1,4,0.25,1,4,0.25,0,0,NA,7,8,0.875,1,3,4,1,0,0,2,3,9,Junior Cadougan
+17,2011-01-15,Marquette,@,Louisville,REG,L,1,36,5,11,0.455,3,6,0.5,2,5,0.4,1,2,0.5,0,5,5,5,1,0,5,0,13,Dwight Buycks
+17,2011-01-25,Marquette,NA,UConn,REG,L,0,8,1,3,0.333,1,3,0.333,0,0,NA,0,0,NA,1,0,1,1,0,1,0,2,2,Davante Gardner
+17,2011-02-09,Marquette,@,South Florida,REG,W,0,19,4,8,0.5,2,5,0.4,2,3,0.667,0,0,NA,1,1,2,0,1,0,0,2,10,Joe Fulce
+17,2011-03-02,Marquette,NA,Cincinnati,REG,L,1,2,1,1,1,1,1,1,0,0,NA,0,0,NA,1,0,1,0,0,0,0,0,2,Erik Williams
+17,2011-03-18,Marquette,N,Xavier,NCAA,W,0,1,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Jamail Jones
+18,2011-01-15,Marquette,@,Louisville,REG,L,0,5,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,1,3,0,Vander Blue
+18,2011-01-15,Marquette,@,Louisville,REG,L,1,20,0,3,0,0,3,0,0,0,NA,5,6,0.833,0,1,1,0,1,1,1,3,5,Chris Otule
+18,2011-01-15,Marquette,@,Louisville,REG,L,1,27,4,11,0.364,4,8,0.5,0,3,0,0,3,0,2,3,5,0,1,0,0,3,8,Jae Crowder
+18,2011-01-15,Marquette,@,Louisville,REG,L,1,37,3,13,0.231,1,6,0.167,2,7,0.286,8,10,0.8,0,7,7,2,0,1,1,1,16,Darius Johnson-Odom
+18,2011-01-15,Marquette,@,Louisville,REG,L,1,39,4,9,0.444,4,8,0.5,0,1,0,7,9,0.778,4,5,9,1,3,0,2,1,15,Jimmy Butler
+18,2011-01-18,Marquette,NA,DePaul,REG,W,0,21,1,3,0.333,1,3,0.333,0,0,NA,2,2,1,3,2,5,3,4,0,1,3,4,Junior Cadougan
+18,2011-01-18,Marquette,NA,DePaul,REG,W,1,28,5,10,0.5,4,8,0.5,1,2,0.5,1,2,0.5,2,1,3,4,0,0,1,0,12,Dwight Buycks
+18,2011-01-29,Marquette,NA,Syracuse,REG,W,0,8,0,0,NA,0,0,NA,0,0,NA,2,2,1,0,0,0,0,0,0,0,0,2,Davante Gardner
+18,2011-02-13,Marquette,@,Georgetown,REG,L,0,2,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,1,0,Joe Fulce
+18,2011-03-05,Marquette,@,Seton Hall,REG,L,0,2,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,1,0,0,0,0,0,Erik Williams
+18,2011-03-25,Marquette,N,UNC,NCAA,L,0,2,0,2,0,0,1,0,0,1,0,0,0,NA,0,1,1,0,0,0,1,0,0,Jamail Jones
+19,2011-01-18,Marquette,NA,DePaul,REG,W,0,22,5,6,0.833,5,6,0.833,0,0,NA,2,3,0.667,0,2,2,2,1,0,2,1,12,Vander Blue
+19,2011-01-18,Marquette,NA,DePaul,REG,W,1,10,1,6,0.167,1,6,0.167,0,0,NA,1,2,0.5,2,2,4,0,1,0,0,2,3,Chris Otule
+19,2011-01-18,Marquette,NA,DePaul,REG,W,1,29,8,10,0.8,8,10,0.8,0,0,NA,4,4,1,4,4,8,1,4,0,0,2,20,Jimmy Butler
+19,2011-01-18,Marquette,NA,DePaul,REG,W,1,32,7,13,0.538,7,10,0.7,0,3,0,4,6,0.667,6,3,9,6,1,3,0,2,18,Jae Crowder
+19,2011-01-18,Marquette,NA,DePaul,REG,W,1,34,6,13,0.462,2,6,0.333,4,7,0.571,4,8,0.5,0,3,3,4,2,1,1,0,20,Darius Johnson-Odom
+19,2011-01-22,Marquette,@,Notre Dame,REG,L,0,22,3,6,0.5,3,6,0.5,0,0,NA,1,1,1,0,1,1,4,1,0,1,4,7,Junior Cadougan
+19,2011-01-22,Marquette,@,Notre Dame,REG,L,1,36,2,9,0.222,0,5,0,2,4,0.5,0,0,NA,1,1,2,2,1,0,1,2,6,Dwight Buycks
+19,2011-02-02,Marquette,@,Villanova,REG,L,0,5,0,0,NA,0,0,NA,0,0,NA,2,2,1,0,1,1,0,0,0,0,2,2,Davante Gardner
+19,2011-02-15,Marquette,NA,St. John's (NY),REG,L,0,10,1,2,0.5,1,2,0.5,0,0,NA,2,2,1,0,2,2,0,0,0,1,2,4,Joe Fulce
+19,2011-03-08,Marquette,N,Providence,CTOURN,W,1,9,1,4,0.25,1,4,0.25,0,0,NA,0,0,NA,1,2,3,1,0,0,0,0,2,Erik Williams
+20,2011-01-22,Marquette,@,Notre Dame,REG,L,0,13,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,2,0,0,1,3,0,Vander Blue
+20,2011-01-22,Marquette,@,Notre Dame,REG,L,1,13,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,1,1,5,0,Chris Otule
+20,2011-01-22,Marquette,@,Notre Dame,REG,L,1,27,6,8,0.75,3,4,0.75,3,4,0.75,0,0,NA,3,5,8,2,1,0,0,5,15,Jae Crowder
+20,2011-01-22,Marquette,@,Notre Dame,REG,L,1,33,6,14,0.429,4,7,0.571,2,7,0.286,11,13,0.846,0,1,1,4,0,0,1,3,25,Darius Johnson-Odom
+20,2011-01-22,Marquette,@,Notre Dame,REG,L,1,39,4,12,0.333,1,8,0.125,3,4,0.75,1,1,1,0,2,2,3,1,1,2,2,12,Jimmy Butler
+20,2011-01-25,Marquette,NA,UConn,REG,L,0,20,0,2,0,0,2,0,0,0,NA,2,4,0.5,0,2,2,0,3,0,2,1,2,Junior Cadougan
+20,2011-01-25,Marquette,NA,UConn,REG,L,1,32,5,9,0.556,3,4,0.75,2,5,0.4,1,1,1,0,4,4,6,1,0,4,4,13,Dwight Buycks
+20,2011-02-09,Marquette,@,South Florida,REG,W,0,6,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,2,0,Davante Gardner
+20,2011-02-19,Marquette,NA,Seton Hall,REG,W,1,12,0,2,0,0,1,0,0,1,0,0,0,NA,0,5,5,0,0,1,1,2,0,Joe Fulce
+20,2011-03-09,Marquette,N,West Virginia,CTOURN,W,1,6,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,1,0,0,0,0,Erik Williams
+21,2011-01-25,Marquette,NA,UConn,REG,L,0,18,0,4,0,0,3,0,0,1,0,0,1,0,0,3,3,1,0,0,0,1,0,Vander Blue
+21,2011-01-25,Marquette,NA,UConn,REG,L,1,10,1,2,0.5,1,2,0.5,0,0,NA,0,0,NA,0,1,1,1,0,2,2,1,2,Chris Otule
+21,2011-01-25,Marquette,NA,UConn,REG,L,1,33,7,12,0.583,4,7,0.571,3,5,0.6,1,2,0.5,0,2,2,0,1,0,1,3,18,Darius Johnson-Odom
+21,2011-01-25,Marquette,NA,UConn,REG,L,1,37,4,13,0.308,3,7,0.429,1,6,0.167,1,2,0.5,2,7,9,3,1,1,0,2,10,Jae Crowder
+21,2011-01-25,Marquette,NA,UConn,REG,L,1,39,7,14,0.5,7,13,0.538,0,1,0,7,7,1,4,4,8,3,1,0,2,3,21,Jimmy Butler
+21,2011-01-29,Marquette,NA,Syracuse,REG,W,0,10,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,2,0,0,2,1,0,Junior Cadougan
+21,2011-01-29,Marquette,NA,Syracuse,REG,W,1,34,2,4,0.5,1,1,1,1,3,0.333,1,4,0.25,0,5,5,8,1,0,4,2,6,Dwight Buycks
+21,2011-02-13,Marquette,@,Georgetown,REG,L,0,10,4,6,0.667,4,6,0.667,0,0,NA,4,5,0.8,2,0,2,0,0,0,0,5,12,Davante Gardner
+21,2011-02-24,Marquette,@,UConn,REG,W,0,10,1,3,0.333,1,3,0.333,0,0,NA,0,0,NA,0,2,2,0,0,0,0,2,2,Joe Fulce
+21,2011-03-10,Marquette,N,Louisville,CTOURN,L,1,7,1,1,1,1,1,1,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,2,Erik Williams
+22,2011-01-29,Marquette,NA,Syracuse,REG,W,0,12,1,4,0.25,1,3,0.333,0,1,0,0,0,NA,1,0,1,0,0,0,2,1,2,Vander Blue
+22,2011-01-29,Marquette,NA,Syracuse,REG,W,1,29,2,3,0.667,2,3,0.667,0,0,NA,1,2,0.5,1,0,1,0,1,1,1,3,5,Chris Otule
+22,2011-01-29,Marquette,NA,Syracuse,REG,W,1,30,4,7,0.571,2,3,0.667,2,4,0.5,7,7,1,0,1,1,3,0,0,2,4,17,Darius Johnson-Odom
+22,2011-01-29,Marquette,NA,Syracuse,REG,W,1,35,6,10,0.6,4,8,0.5,2,2,1,5,8,0.625,3,5,8,3,0,0,1,1,19,Jimmy Butler
+22,2011-01-29,Marquette,NA,Syracuse,REG,W,1,36,8,16,0.5,7,13,0.538,1,3,0.333,8,10,0.8,1,6,7,1,1,1,0,1,25,Jae Crowder
+22,2011-02-02,Marquette,@,Villanova,REG,L,0,21,1,2,0.5,1,2,0.5,0,0,NA,2,2,1,0,2,2,1,0,0,1,3,4,Junior Cadougan
+22,2011-02-02,Marquette,@,Villanova,REG,L,1,32,3,8,0.375,3,6,0.5,0,2,0,2,2,1,1,1,2,4,0,0,5,2,8,Dwight Buycks
+22,2011-02-15,Marquette,NA,St. John's (NY),REG,L,0,2,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,1,0,Davante Gardner
+22,2011-02-27,Marquette,NA,Providence,REG,W,0,5,2,3,0.667,2,2,1,0,1,0,2,2,1,0,1,1,0,0,0,0,1,6,Joe Fulce
+22,2011-03-18,Marquette,N,Xavier,NCAA,W,1,9,2,3,0.667,2,2,1,0,1,0,1,1,1,0,2,2,0,0,0,0,0,5,Erik Williams
+23,2011-02-02,Marquette,@,Villanova,REG,L,0,12,1,2,0.5,1,1,1,0,1,0,0,1,0,1,0,1,0,1,0,0,3,2,Vander Blue
+23,2011-02-02,Marquette,@,Villanova,REG,L,1,16,4,4,1,4,4,1,0,0,NA,0,0,NA,3,2,5,0,0,2,1,4,8,Chris Otule
+23,2011-02-02,Marquette,@,Villanova,REG,L,1,24,2,4,0.5,2,2,1,0,2,0,5,5,1,0,4,4,3,1,0,1,5,9,Jae Crowder
+23,2011-02-02,Marquette,@,Villanova,REG,L,1,36,7,21,0.333,6,16,0.375,1,5,0.2,0,0,NA,0,2,2,2,2,0,1,2,15,Darius Johnson-Odom
+23,2011-02-02,Marquette,@,Villanova,REG,L,1,38,6,13,0.462,5,10,0.5,1,3,0.333,2,2,1,1,2,3,1,0,0,1,2,15,Jimmy Butler
+23,2011-02-09,Marquette,@,South Florida,REG,W,0,18,2,3,0.667,2,3,0.667,0,0,NA,0,0,NA,0,0,0,1,0,0,0,1,4,Junior Cadougan
+23,2011-02-09,Marquette,@,South Florida,REG,W,1,33,2,7,0.286,1,6,0.167,1,1,1,2,4,0.5,0,0,0,5,1,0,2,0,7,Dwight Buycks
+23,2011-02-19,Marquette,NA,Seton Hall,REG,W,0,11,1,4,0.25,1,4,0.25,0,0,NA,5,6,0.833,3,3,6,2,0,0,2,2,7,Davante Gardner
+23,2011-03-02,Marquette,NA,Cincinnati,REG,L,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Joe Fulce
+23,2011-03-20,Marquette,N,Syracuse,NCAA,W,1,4,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Erik Williams
+24,2011-02-09,Marquette,@,South Florida,REG,W,0,32,5,13,0.385,5,12,0.417,0,1,0,2,3,0.667,4,2,6,5,2,0,0,1,12,Jimmy Butler
+24,2011-02-09,Marquette,@,South Florida,REG,W,1,16,1,4,0.25,1,4,0.25,0,0,NA,1,3,0.333,1,2,3,0,0,2,1,3,3,Chris Otule
+24,2011-02-09,Marquette,@,South Florida,REG,W,1,21,1,9,0.111,1,8,0.125,0,1,0,0,2,0,3,3,6,2,1,0,1,0,2,Vander Blue
+24,2011-02-09,Marquette,@,South Florida,REG,W,1,27,5,6,0.833,1,1,1,4,5,0.8,0,1,0,1,3,4,2,2,1,0,3,14,Jae Crowder
+24,2011-02-09,Marquette,@,South Florida,REG,W,1,28,2,6,0.333,1,4,0.25,1,2,0.5,2,6,0.333,0,3,3,1,0,0,4,4,7,Darius Johnson-Odom
+24,2011-02-13,Marquette,@,Georgetown,REG,L,0,16,1,1,1,1,1,1,0,0,NA,2,4,0.5,0,2,2,0,0,0,0,1,4,Junior Cadougan
+24,2011-02-13,Marquette,@,Georgetown,REG,L,1,31,2,8,0.25,2,7,0.286,0,1,0,0,1,0,0,0,0,0,0,0,3,3,4,Dwight Buycks
+24,2011-02-24,Marquette,@,UConn,REG,W,0,2,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,0,0,0,0,1,0,Davante Gardner
+24,2011-03-05,Marquette,@,Seton Hall,REG,L,0,11,1,2,0.5,0,1,0,1,1,1,2,2,1,0,0,0,2,1,0,0,2,5,Joe Fulce
+24,2011-03-25,Marquette,N,UNC,NCAA,L,1,6,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,1,1,0,Erik Williams
+25,2011-02-13,Marquette,@,Georgetown,REG,L,0,33,2,6,0.333,2,3,0.667,0,3,0,6,7,0.857,2,3,5,3,2,0,4,3,10,Jimmy Butler
+25,2011-02-13,Marquette,@,Georgetown,REG,L,1,16,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,4,4,1,0,0,0,2,0,Vander Blue
+25,2011-02-13,Marquette,@,Georgetown,REG,L,1,25,2,5,0.4,2,5,0.4,0,0,NA,2,2,1,2,7,9,0,0,1,2,2,6,Chris Otule
+25,2011-02-13,Marquette,@,Georgetown,REG,L,1,32,7,17,0.412,5,11,0.455,2,6,0.333,4,4,1,1,2,3,0,1,0,2,3,20,Darius Johnson-Odom
+25,2011-02-13,Marquette,@,Georgetown,REG,L,1,33,2,7,0.286,2,5,0.4,0,2,0,0,4,0,0,7,7,1,2,4,1,1,4,Jae Crowder
+25,2011-02-15,Marquette,NA,St. John's (NY),REG,L,0,15,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,4,0,0,3,3,0,Junior Cadougan
+25,2011-02-15,Marquette,NA,St. John's (NY),REG,L,1,33,1,6,0.167,1,4,0.25,0,2,0,5,5,1,0,0,0,5,0,0,5,4,7,Dwight Buycks
+25,2011-02-27,Marquette,NA,Providence,REG,W,0,8,2,2,1,2,2,1,0,0,NA,0,0,NA,0,1,1,0,0,0,0,3,4,Davante Gardner
+25,2011-03-09,Marquette,N,West Virginia,CTOURN,W,0,2,1,2,0.5,0,0,NA,1,2,0.5,0,0,NA,0,2,2,0,0,0,0,2,3,Joe Fulce
+26,2011-02-15,Marquette,NA,St. John's (NY),REG,L,0,7,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,1,0,0,2,2,0,Vander Blue
+26,2011-02-15,Marquette,NA,St. John's (NY),REG,L,1,28,1,3,0.333,1,3,0.333,0,0,NA,3,4,0.75,3,5,8,0,1,4,0,2,5,Chris Otule
+26,2011-02-15,Marquette,NA,St. John's (NY),REG,L,1,32,4,10,0.4,3,6,0.5,1,4,0.25,6,8,0.75,3,6,9,4,2,1,1,1,15,Jae Crowder
+26,2011-02-15,Marquette,NA,St. John's (NY),REG,L,1,36,9,13,0.692,9,11,0.818,0,2,0,5,7,0.714,1,6,7,2,0,0,3,2,23,Jimmy Butler
+26,2011-02-15,Marquette,NA,St. John's (NY),REG,L,1,37,4,10,0.4,2,4,0.5,2,6,0.333,4,6,0.667,0,3,3,2,1,0,3,4,14,Darius Johnson-Odom
+26,2011-02-19,Marquette,NA,Seton Hall,REG,W,0,31,4,6,0.667,3,4,0.75,1,2,0.5,2,2,1,0,4,4,5,2,0,0,1,11,Dwight Buycks
+26,2011-02-19,Marquette,NA,Seton Hall,REG,W,1,18,2,3,0.667,2,2,1,0,1,0,0,0,NA,0,1,1,5,0,0,3,1,4,Junior Cadougan
+26,2011-03-02,Marquette,NA,Cincinnati,REG,L,0,4,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,0,0,0,0,0,0,0,0,Davante Gardner
+26,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,3,0,1,0,0,1,0,0,0,NA,0,0,NA,0,0,0,0,0,0,1,0,0,Joe Fulce
+27,2011-02-19,Marquette,NA,Seton Hall,REG,W,0,6,0,0,NA,0,0,NA,0,0,NA,0,0,NA,1,0,1,1,0,0,3,0,0,Vander Blue
+27,2011-02-19,Marquette,NA,Seton Hall,REG,W,0,32,4,9,0.444,4,6,0.667,0,3,0,4,6,0.667,1,8,9,1,2,1,1,1,12,Jae Crowder
+27,2011-02-19,Marquette,NA,Seton Hall,REG,W,1,20,5,5,1,5,5,1,0,0,NA,0,5,0,4,4,8,0,0,1,2,4,10,Chris Otule
+27,2011-02-19,Marquette,NA,Seton Hall,REG,W,1,32,4,11,0.364,2,6,0.333,2,5,0.4,3,5,0.6,1,1,2,3,0,0,2,3,13,Darius Johnson-Odom
+27,2011-02-19,Marquette,NA,Seton Hall,REG,W,1,38,7,9,0.778,7,9,0.778,0,0,NA,2,2,1,2,1,3,1,2,0,0,0,16,Jimmy Butler
+27,2011-02-24,Marquette,@,UConn,REG,W,0,35,4,11,0.364,2,5,0.4,2,6,0.333,3,5,0.6,1,2,3,2,4,0,1,2,13,Dwight Buycks
+27,2011-02-24,Marquette,@,UConn,REG,W,1,17,2,2,1,1,1,1,1,1,1,0,0,NA,0,1,1,3,1,0,1,0,5,Junior Cadougan
+27,2011-03-05,Marquette,@,Seton Hall,REG,L,0,13,1,1,1,1,1,1,0,0,NA,1,4,0.25,1,1,2,0,0,0,1,1,3,Davante Gardner
+27,2011-03-18,Marquette,N,Xavier,NCAA,W,0,4,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,1,2,0,0,1,0,Joe Fulce
+28,2011-02-24,Marquette,@,UConn,REG,W,0,20,1,4,0.25,1,3,0.333,0,1,0,5,6,0.833,1,1,2,0,1,0,0,0,7,Vander Blue
+28,2011-02-24,Marquette,@,UConn,REG,W,0,30,3,9,0.333,3,6,0.5,0,3,0,1,3,0.333,7,4,11,3,0,0,0,4,7,Jae Crowder
+28,2011-02-24,Marquette,@,UConn,REG,W,1,30,2,7,0.286,2,7,0.286,0,0,NA,3,3,1,4,2,6,0,0,1,1,4,7,Chris Otule
+28,2011-02-24,Marquette,@,UConn,REG,W,1,30,7,16,0.438,7,9,0.778,0,7,0,3,4,0.75,0,4,4,3,4,0,2,2,17,Darius Johnson-Odom
+28,2011-02-24,Marquette,@,UConn,REG,W,1,44,6,16,0.375,5,14,0.357,1,2,0.5,3,7,0.429,3,4,7,0,0,1,3,2,16,Jimmy Butler
+28,2011-02-27,Marquette,NA,Providence,REG,W,0,17,0,2,0,0,2,0,0,0,NA,0,0,NA,0,4,4,1,0,0,5,1,0,Dwight Buycks
+28,2011-02-27,Marquette,NA,Providence,REG,W,1,30,3,5,0.6,3,4,0.75,0,1,0,4,5,0.8,0,6,6,10,2,0,2,2,10,Junior Cadougan
+28,2011-03-08,Marquette,N,Providence,CTOURN,W,0,17,3,7,0.429,3,7,0.429,0,0,NA,3,3,1,2,5,7,1,0,0,0,0,9,Davante Gardner
+28,2011-03-20,Marquette,N,Syracuse,NCAA,W,0,5,0,1,0,0,1,0,0,0,NA,0,0,NA,0,2,2,1,1,1,0,0,0,Joe Fulce
+29,2011-02-27,Marquette,NA,Providence,REG,W,0,10,0,0,NA,0,0,NA,0,0,NA,0,0,NA,0,1,1,1,0,0,1,0,0,Vander Blue
+29,2011-02-27,Marquette,NA,Providence,REG,W,0,23,2,9,0.222,1,6,0.167,1,3,0.333,7,8,0.875,1,12,13,0,1,1,0,2,12,Jae Crowder
+29,2011-02-27,Marquette,NA,Providence,REG,W,1,27,7,10,0.7,4,6,0.667,3,4,0.75,0,0,NA,0,3,3,4,2,0,3,1,17,Darius Johnson-Odom
+29,2011-02-27,Marquette,NA,Providence,REG,W,1,31,5,9,0.556,5,8,0.625,0,1,0,5,7,0.714,3,3,6,3,2,2,2,2,15,Jimmy Butler
+29,2011-02-27,Marquette,NA,Providence,REG,W,1,31,7,12,0.583,7,12,0.583,0,0,NA,2,2,1,4,2,6,0,0,4,1,4,16,Chris Otule
+29,2011-03-02,Marquette,NA,Cincinnati,REG,L,0,31,1,5,0.2,1,3,0.333,0,2,0,0,0,NA,1,1,2,3,2,0,1,0,2,Dwight Buycks
+29,2011-03-02,Marquette,NA,Cincinnati,REG,L,1,23,2,4,0.5,2,3,0.667,0,1,0,0,2,0,1,0,1,2,0,0,3,0,4,Junior Cadougan
+29,2011-03-09,Marquette,N,West Virginia,CTOURN,W,0,16,4,4,1,4,4,1,0,0,NA,2,2,1,0,3,3,0,0,0,1,2,10,Davante Gardner
+29,2011-03-25,Marquette,N,UNC,NCAA,L,0,8,0,2,0,0,0,NA,0,2,0,0,0,NA,0,1,1,0,0,2,0,0,0,Joe Fulce
+30,2011-03-02,Marquette,NA,Cincinnati,REG,L,0,7,1,5,0.2,1,4,0.25,0,1,0,0,0,NA,1,0,1,1,1,0,0,1,2,Vander Blue
+30,2011-03-02,Marquette,NA,Cincinnati,REG,L,0,32,1,4,0.25,0,1,0,1,3,0.333,0,0,NA,0,3,3,1,1,1,1,4,3,Jae Crowder
+30,2011-03-02,Marquette,NA,Cincinnati,REG,L,1,27,1,3,0.333,1,3,0.333,0,0,NA,0,1,0,6,3,9,0,0,1,3,1,2,Chris Otule
+30,2011-03-02,Marquette,NA,Cincinnati,REG,L,1,32,5,11,0.455,4,6,0.667,1,5,0.2,4,6,0.667,1,4,5,2,1,0,2,2,15,Darius Johnson-Odom
+30,2011-03-02,Marquette,NA,Cincinnati,REG,L,1,39,7,15,0.467,6,12,0.5,1,3,0.333,15,17,0.882,3,3,6,0,3,0,1,2,30,Jimmy Butler
+30,2011-03-05,Marquette,@,Seton Hall,REG,L,0,19,2,6,0.333,2,6,0.333,0,0,NA,1,1,1,0,3,3,3,0,0,3,3,5,Junior Cadougan
+30,2011-03-05,Marquette,@,Seton Hall,REG,L,1,23,5,7,0.714,1,1,1,4,6,0.667,1,2,0.5,2,1,3,2,0,0,1,3,15,Dwight Buycks
+30,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,11,1,4,0.25,1,4,0.25,0,0,NA,0,0,NA,3,1,4,0,0,0,1,1,2,Davante Gardner
+31,2011-03-05,Marquette,@,Seton Hall,REG,L,0,17,1,4,0.25,1,4,0.25,0,0,NA,1,2,0.5,2,3,5,0,0,0,1,3,3,Vander Blue
+31,2011-03-05,Marquette,@,Seton Hall,REG,L,1,20,1,1,1,1,1,1,0,0,NA,3,4,0.75,1,2,3,0,0,2,3,3,5,Chris Otule
+31,2011-03-05,Marquette,@,Seton Hall,REG,L,1,21,0,2,0,0,1,0,0,1,0,1,3,0.333,0,3,3,0,0,0,1,4,1,Jae Crowder
+31,2011-03-05,Marquette,@,Seton Hall,REG,L,1,31,5,16,0.313,2,7,0.286,3,9,0.333,0,0,NA,0,2,2,1,0,1,2,4,13,Darius Johnson-Odom
+31,2011-03-05,Marquette,@,Seton Hall,REG,L,1,38,4,11,0.364,3,7,0.429,1,4,0.25,11,13,0.846,2,3,5,1,1,1,1,1,20,Jimmy Butler
+31,2011-03-08,Marquette,N,Providence,CTOURN,W,0,24,2,7,0.286,2,6,0.333,0,1,0,0,2,0,2,0,2,5,1,0,3,3,4,Junior Cadougan
+31,2011-03-08,Marquette,N,Providence,CTOURN,W,1,20,2,5,0.4,1,3,0.333,1,2,0.5,1,2,0.5,1,5,6,2,2,0,2,2,6,Dwight Buycks
+31,2011-03-18,Marquette,N,Xavier,NCAA,W,0,15,2,4,0.5,2,4,0.5,0,0,NA,0,0,NA,2,3,5,1,0,0,2,3,4,Davante Gardner
+32,2011-03-08,Marquette,N,Providence,CTOURN,W,0,16,2,6,0.333,2,5,0.4,0,1,0,0,2,0,3,4,7,0,0,0,1,2,4,Vander Blue
+32,2011-03-08,Marquette,N,Providence,CTOURN,W,0,27,4,9,0.444,3,6,0.5,1,3,0.333,1,4,0.25,1,3,4,2,1,0,2,3,10,Jae Crowder
+32,2011-03-08,Marquette,N,Providence,CTOURN,W,1,18,3,4,0.75,3,4,0.75,0,0,NA,1,2,0.5,3,2,5,0,1,2,2,1,7,Chris Otule
+32,2011-03-08,Marquette,N,Providence,CTOURN,W,1,31,5,8,0.625,4,7,0.571,1,1,1,8,10,0.8,3,7,10,8,1,0,1,0,19,Jimmy Butler
+32,2011-03-08,Marquette,N,Providence,CTOURN,W,1,32,9,17,0.529,6,11,0.545,3,6,0.5,2,2,1,1,4,5,1,1,0,1,0,23,Darius Johnson-Odom
+32,2011-03-09,Marquette,N,West Virginia,CTOURN,W,0,26,4,7,0.571,4,7,0.571,0,0,NA,7,9,0.778,0,3,3,5,0,0,1,0,15,Junior Cadougan
+32,2011-03-09,Marquette,N,West Virginia,CTOURN,W,1,26,4,9,0.444,4,9,0.444,0,0,NA,0,0,NA,0,2,2,0,1,0,1,1,8,Dwight Buycks
+32,2011-03-20,Marquette,N,Syracuse,NCAA,W,0,6,0,0,NA,0,0,NA,0,0,NA,2,2,1,1,1,2,0,0,0,2,1,2,Davante Gardner
+33,2011-03-09,Marquette,N,West Virginia,CTOURN,W,0,15,0,2,0,0,2,0,0,0,NA,0,0,NA,2,2,4,0,1,0,1,2,0,Vander Blue
+33,2011-03-09,Marquette,N,West Virginia,CTOURN,W,0,28,1,4,0.25,0,1,0,1,3,0.333,1,2,0.5,2,7,9,2,3,2,1,0,4,Jae Crowder
+33,2011-03-09,Marquette,N,West Virginia,CTOURN,W,1,18,3,6,0.5,3,6,0.5,0,0,NA,1,2,0.5,0,0,0,0,0,1,0,3,7,Chris Otule
+33,2011-03-09,Marquette,N,West Virginia,CTOURN,W,1,27,4,10,0.4,2,5,0.4,2,5,0.4,1,2,0.5,0,0,0,1,1,0,3,3,11,Darius Johnson-Odom
+33,2011-03-09,Marquette,N,West Virginia,CTOURN,W,1,36,2,5,0.4,1,4,0.25,1,1,1,4,7,0.571,1,1,2,2,1,0,2,2,9,Jimmy Butler
+33,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,23,1,7,0.143,1,7,0.143,0,0,NA,5,7,0.714,0,3,3,2,0,0,1,2,7,Junior Cadougan
+33,2011-03-10,Marquette,N,Louisville,CTOURN,L,1,21,2,5,0.4,2,3,0.667,0,2,0,0,0,NA,0,3,3,0,0,0,2,0,4,Dwight Buycks
+33,2011-03-25,Marquette,N,UNC,NCAA,L,0,18,6,9,0.667,6,9,0.667,0,0,NA,4,5,0.8,4,2,6,0,1,0,2,3,16,Davante Gardner
+34,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,19,0,3,0,0,3,0,0,0,NA,0,1,0,0,0,0,1,0,1,1,3,0,Vander Blue
+34,2011-03-10,Marquette,N,Louisville,CTOURN,L,0,22,3,9,0.333,1,4,0.25,2,5,0.4,2,4,0.5,1,2,3,0,0,0,1,3,10,Jae Crowder
+34,2011-03-10,Marquette,N,Louisville,CTOURN,L,1,18,0,0,NA,0,0,NA,0,0,NA,0,0,NA,2,4,6,0,0,2,0,2,0,Chris Otule
+34,2011-03-10,Marquette,N,Louisville,CTOURN,L,1,29,3,10,0.3,2,7,0.286,1,3,0.333,7,9,0.778,3,3,6,2,2,0,2,1,14,Jimmy Butler
+34,2011-03-10,Marquette,N,Louisville,CTOURN,L,1,29,5,14,0.357,5,10,0.5,0,4,0,3,7,0.429,2,2,4,2,2,0,3,3,13,Darius Johnson-Odom
+34,2011-03-18,Marquette,N,Xavier,NCAA,W,0,22,2,2,1,2,2,1,0,0,NA,1,3,0.333,0,0,0,1,0,0,3,1,5,Junior Cadougan
+34,2011-03-18,Marquette,N,Xavier,NCAA,W,1,25,3,7,0.429,2,4,0.5,1,3,0.333,1,2,0.5,0,1,1,2,1,0,2,0,8,Dwight Buycks
+35,2011-03-18,Marquette,N,Xavier,NCAA,W,0,8,0,1,0,0,1,0,0,0,NA,0,0,NA,0,2,2,0,0,0,0,2,0,Vander Blue
+35,2011-03-18,Marquette,N,Xavier,NCAA,W,0,29,4,6,0.667,4,4,1,0,2,0,2,2,1,2,4,6,2,0,1,1,3,10,Jae Crowder
+35,2011-03-18,Marquette,N,Xavier,NCAA,W,1,18,0,2,0,0,2,0,0,0,NA,0,0,NA,0,2,2,0,0,1,0,5,0,Chris Otule
+35,2011-03-18,Marquette,N,Xavier,NCAA,W,1,32,6,11,0.545,2,5,0.4,4,6,0.667,3,5,0.6,0,0,0,2,0,0,5,3,19,Darius Johnson-Odom
+35,2011-03-18,Marquette,N,Xavier,NCAA,W,1,36,5,8,0.625,5,8,0.625,0,0,NA,5,6,0.833,1,4,5,4,3,0,2,0,15,Jimmy Butler
+35,2011-03-20,Marquette,N,Syracuse,NCAA,W,0,25,3,6,0.5,3,6,0.5,0,0,NA,3,3,1,0,2,2,3,1,0,1,3,9,Junior Cadougan
+35,2011-03-20,Marquette,N,Syracuse,NCAA,W,1,25,2,6,0.333,1,5,0.2,1,1,1,1,2,0.5,2,2,4,0,0,0,2,0,6,Dwight Buycks
+36,2011-03-20,Marquette,N,Syracuse,NCAA,W,0,6,0,1,0,0,1,0,0,0,NA,0,0,NA,0,1,1,0,1,0,1,0,0,Vander Blue
+36,2011-03-20,Marquette,N,Syracuse,NCAA,W,0,31,4,8,0.5,3,6,0.5,1,2,0.5,7,8,0.875,3,4,7,3,1,0,2,2,16,Jae Crowder
+36,2011-03-20,Marquette,N,Syracuse,NCAA,W,1,26,1,2,0.5,1,2,0.5,0,0,NA,4,6,0.667,0,3,3,1,1,0,3,5,6,Chris Otule
+36,2011-03-20,Marquette,N,Syracuse,NCAA,W,1,33,7,15,0.467,4,8,0.5,3,7,0.429,0,0,NA,1,1,2,4,3,0,1,1,17,Darius Johnson-Odom
+36,2011-03-20,Marquette,N,Syracuse,NCAA,W,1,39,4,11,0.364,4,10,0.4,0,1,0,2,2,1,4,1,5,3,3,0,2,1,10,Jimmy Butler
+36,2011-03-25,Marquette,N,UNC,NCAA,L,0,20,3,8,0.375,3,7,0.429,0,1,0,4,4,1,0,2,2,5,0,0,1,2,10,Junior Cadougan
+36,2011-03-25,Marquette,N,UNC,NCAA,L,1,21,0,2,0,0,1,0,0,1,0,0,0,NA,0,2,2,0,0,0,3,1,0,Dwight Buycks
+37,2011-03-25,Marquette,N,UNC,NCAA,L,0,16,0,2,0,0,2,0,0,0,NA,2,2,1,0,0,0,1,1,0,1,1,2,Vander Blue
+37,2011-03-25,Marquette,N,UNC,NCAA,L,0,27,5,12,0.417,4,8,0.5,1,4,0.25,0,0,NA,4,4,8,0,1,3,4,4,11,Jae Crowder
+37,2011-03-25,Marquette,N,UNC,NCAA,L,1,20,0,4,0,0,4,0,0,0,NA,0,0,NA,4,4,8,0,0,2,1,1,0,Chris Otule
+37,2011-03-25,Marquette,N,UNC,NCAA,L,1,25,2,9,0.222,2,6,0.333,0,3,0,3,5,0.6,1,3,4,0,0,0,4,3,7,Darius Johnson-Odom
+37,2011-03-25,Marquette,N,UNC,NCAA,L,1,36,6,12,0.5,6,9,0.667,0,3,0,2,4,0.5,3,3,6,2,1,1,0,1,14,Jimmy Butler
