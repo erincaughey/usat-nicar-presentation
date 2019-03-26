@@ -11,26 +11,39 @@ Let's work through a sports example since it's March Madness and my bracket is a
 
 So this is the data we'll work with: 
 
-### Marquette data for the 2010-2011 season
+**Marquette data for the 2010-2011 season**
 
 + College basketball gamelogs for [Marquette University's 2010-11 season](https://www.sports-reference.com/cbb/schools/marquette/2011-gamelogs.html).
 
-And the game logs for each individual player: 
+**And the game logs for each individual player:** 
+
 + [Darius Johson-Odom](https://www.sports-reference.com/cbb/players/darius-johnson-odom-1/gamelog/2011)
+
 + [Jimmy Butler](https://www.sports-reference.com/cbb/players/jimmy-butler-1/gamelog/2011)
+
 + [Jae Crowder](https://www.sports-reference.com/cbb/players/jae-crowder-1/gamelog/2011)
+
 + [Dwight Buycks](https://www.sports-reference.com/cbb/players/dwight-buycks-1/gamelog/2011)
+
 + [Chris Otule](https://www.sports-reference.com/cbb/players/chris-otule-1/gamelog/2011)
+
 + [Vander Blue](https://www.sports-reference.com/cbb/players/vander-blue-1/gamelog/2011)
+
 + [Davante Gardner](https://www.sports-reference.com/cbb/players/davante-gardner-1/gamelog/2011)
+
 + [Junior Cadougan](https://www.sports-reference.com/cbb/players/junior-cadougan-1/gamelog/2011)
+
 + [Joe Fulce](https://www.sports-reference.com/cbb/players/joe-fulce-1/gamelog/2011)
+
 + [Erik Williams](https://www.sports-reference.com/cbb/players/erik-williams-1/gamelog/2011)
+
 + [Jamail Jones](https://www.sports-reference.com/cbb/players/jamail-jones-1/gamelog/2011)
+
 + [Reggie Smith](https://www.sports-reference.com/cbb/players/reggie-smith-1/gamelog/2011)
+
 + [Robert Frozena](https://www.sports-reference.com/cbb/players/robert-frozena-1/gamelog/2011)
 
-Some of the later visualizations in this example will work through this template from Matt Waite at NICAR 2019: [https://mattwaite.github.io/nicar19/CourseMaterials.html](https://mattwaite.github.io/nicar19/CourseMaterials.html)
+**Some of the later visualizations in this example will work through this template from Matt Waite at NICAR 2019:** [https://mattwaite.github.io/nicar19/CourseMaterials.html](https://mattwaite.github.io/nicar19/CourseMaterials.html)
 
 + data: [All team game logs for the 2018-19 season](https://github.com/mattwaite/NICAR19SportsDataViz)
 
@@ -42,7 +55,7 @@ _**All datasets sourced from Sports Reference.**_
 
 Clean, analyze and visualize these datasets. To do that we'll work with R's `tidyverse` library.
 
-```{r libraries, warning=TRUE, include=FALSE, paged.print=TRUE}
+```{r libraries, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 #uncomment and run install code if tidyverse is not already running
 #install.packages("tidyverse")
 library(tidyverse)
@@ -59,13 +72,13 @@ library(lubridate)
 
 We're going to load this and forget about it for a minute because Matt Waite did the dirty work of cleaning this for us already. 
 
-```{r all team logs}
+```{r all team logs, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 all_teams <- read_csv("data/1819-all-logs.csv")
 ```
 
 These are gamelogs for [Marquette University's 2010-11 season](https://www.sports-reference.com/cbb/schools/marquette/2011-gamelogs.html). There's an option to download **"Get Table as CSV"**, copy the text on the page, paste into a text editor and then save the file as `mu-10-11-gamelong.csv`
 
-```{r mu gamelogs clean}
+```{r mu gamelogs clean, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 logs <- read_csv("data/mu-10-11-gamelog.csv", skip=1)
 # we use skip = 1 becuase there is an extra row of label data that we don't need.
 colnames(logs)
@@ -83,7 +96,7 @@ Now let's combine and clean each of the players gamelog data from Marquette Univ
 
 I followed the same steps as above to save a `.csv` file for each individual player on the team. This is the hard way but also a good example of how to combine these files into one since they are all formatted the same way.
 
-```{r players clean and join}
+```{r players clean and join, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 # run each group of functions separately
 
 odom <- read_csv("mu-players/djo-1011.csv") 
@@ -153,7 +166,7 @@ First, let's go back to our Marquette team season logs and look at the score dif
 
 Here we do some math by adding a new column with `mutate()` called "differential" to show how much the team wins or loses by. And then sort that column in decending order. `arrange()` is `dplyr` version of `sort()`.
 
-```{r gamelog differentials}
+```{r gamelog differentials, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 clean_logs %>% 
   mutate(differential = team_score-opponent_score) %>% 
   arrange(desc(differential)) -> arranged_logs
@@ -167,7 +180,7 @@ This is why I used `filter()` to grab the final row of each player's gamelogs. I
 
 An obvious assumption is that the more games you play the higher totals and season averages a player will have. We can use the `arrange()` function to check that correlation. 
 
-```{r player analysis on totals}
+```{r player analysis on totals, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 arrange(player_totals, desc(PTS))
 # now replace "PTS" above with any of the other column names like AST, BLK, 3P, etc. 
 # remember if you try and arrange by any of the columns that start with a number you need to use backticks (ex: `3P`) so R will understand.
@@ -177,7 +190,7 @@ Becasue we kept each individual player's data we can run some comparisons betwee
 
 For example let's just use `arrange` again see who scored the most points per game throughout the season. You'll have to scroll all the way to the right to see the PTS and player variables.
 
-```{r arrange}
+```{r arrange, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 arrange(mu_players, desc(PTS))
 # this shows Jimmy Butler, Darius Johnson-Odom and Jae Crowder had some of the highest points per game
 ```
@@ -186,7 +199,7 @@ We can also use filter to see how many players scored above double digits in a g
 
 Remember we have 383 rows of data. 
 
-```{r arrange and filter}
+```{r arrange and filter, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 more_than_ten <- filter(mu_players, PTS >= 10) %>% arrange(., desc(PTS))
 ```
 
@@ -196,7 +209,7 @@ If you scan through you can see Darius Johnson-Odom scored over 10 points per ga
 
 Let's go one step further and find the average amount of games DJO scored over 10 points in a game. 
 
-```{r DJO PPG}
+```{r Ex. DJO PPG, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 filter(more_than_ten, player == "Darius Johnson-Odom")
 ```
 That's 33 records. Or 33 games. And from our `player_totals` dataframe we know that he played a total of 37 games. Simple math to average: `33 / 37 = .8918919` or of the 37 games Darius Johnson-Odom played he scored 10 points or more in 89% of those games.
@@ -205,7 +218,7 @@ But of course there's a simpler way to find simple statistics on individual play
 
 With this we would be able to check a players mean for various statistics to see how they might compare to other players.
 
-```{r summary}
+```{r summary, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 summary(odom)
 # ^ replace "odom" with other player tables to compare
 ```
@@ -216,7 +229,7 @@ summary(odom)
 
 First let's again revisit the Marquette team gamelogs and create a bar graph to show wins and losses for Marquette's 2010-11 season based on the point differential.
 
-```{r bar chart}
+```{r bar chart, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 ggplot() + geom_bar(data=arranged_logs, aes(date, weight=differential))
 ```
 
@@ -228,7 +241,7 @@ First, I need to remove the total points from Jae's individual gamelog table sin
 
 You'll see labeling and color changes specified in this one. I'll dig into this a little later.
 
-```{r Crowder plot}
+```{r Crowder plot, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 # ymd() function uses "lubridate" package so load that library if needed.
 
 jae_clean <- filter(crowder, !is.na(Rk)) %>% mutate(date = ymd(Date))
@@ -251,7 +264,7 @@ jae_pts
 
 How about all the players next to each other?
 
-```{r multiples}
+```{r multiples, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 # now let's plot and add labels
 mu_players <- mutate(mu_players, date = ymd(date))
 all_players <- ggplot(mu_players, aes(date, PTS)) +
@@ -269,13 +282,13 @@ _This is where that first dataset from Matt Waite comes into play._
 
 Since we've been talking about Marquette let's look at all team game logs and pull out just those in the Big East conference. 
 
-```{r filter league}
+```{r filter league, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 all_teams %>% filter(Conference == "Big East") -> big_east
 ```
 
 Let's visualize the field goal percentage across all Big East teams during the 2018-19 season.
 
-```{r lines}
+```{r lines, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 ggplot() + geom_line(data=big_east, aes(x=Date, y=TeamFGPCT, group=Team))
 ```
 
@@ -283,7 +296,7 @@ That's messy. Clean it up by highlighting specific teams and layering and settin
 
 We'll create a new working dataframe with `grouped_by()` and create columns for each team's FG, FG attempts and a calculated FG percentage.
 
-```{r big east FG}
+```{r big east FG, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 big_east %>% 
   group_by(Team) %>% 
   summarize(
@@ -296,7 +309,7 @@ big_east %>%
 
 Using this let's compare Marquette to the team with the best season FG percentage, Creighton.
 
-```{r filter teams}
+```{r filter teams, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 mu <- big_east %>% filter(Team == "Marquette Golden Eagles")
 cb <- big_east %>% filter(Team == "Creighton Bluejays")
 
@@ -304,7 +317,7 @@ cb <- big_east %>% filter(Team == "Creighton Bluejays")
 
 And replot them with style: 
 
-```{r layer and style}
+```{r layer and style, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 ggplot() + 
   geom_line(data=big_east, aes(x=Date, y=TeamFGPCT, group=Team), color="light grey") +
   geom_line(data=mu, aes(x=Date, y=TeamFGPCT, group=Team), color="gold") +
@@ -315,7 +328,7 @@ Now we can see the teams but it's hard to decipher who's doing better just looki
 
 How about getting more point differentials for those teams in the Big East like we did with just Marquette's 2010-11 season gamelogs?
 
-```{r team differentials}
+```{r team differentials, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 big_east_tot <- big_east %>% 
   mutate(differential = TeamScore-OpponentScore) %>% 
   group_by(Team) %>% 
@@ -328,7 +341,7 @@ cbc <- big_east_tot %>% filter(Team == "Creighton Bluejays")
 
 Let's track cumulative change over time using a step chart. You'll notice everything is about the same except we'll use `geom_step` instead of `geom_line`
 
-```{r step chart}
+```{r step chart, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 ggplot() + 
   geom_step(data=big_east_tot, aes(x=Date, y=totaldifferential, group=Team), color="light grey") + 
   geom_step(data=muc, aes(x=Date, y=totaldifferential, group=Team), color="gold") +
@@ -343,7 +356,7 @@ For better understanding let's get some readable labels (`labs()`), source lines
 
 We'll start by remaking the chart above:
 
-```{r step chart - with labels}
+```{r step chart - with labels, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 final_plot <- ggplot() + 
   geom_step(data=big_east_tot, aes(x=Date, y=totaldifferential, group=Team), color="grey") + 
   geom_step(data=muc, aes(x=Date, y=totaldifferential, group=Team), color="gold") +
@@ -370,7 +383,7 @@ final_plot
 `ggsave()` will export your most recently run chart in R. 
 
 Export filetype: 
-```{r export}
+```{r export, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 # PDF or PNG 
 # to speficiy a chart add a "plot = plot_name" parameter after the file name.
 ggsave("exports/players-plot.pdf", plot = all_players, width = 7, height = 10, units = "in", dpi = 320)

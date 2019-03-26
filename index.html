@@ -130,74 +130,51 @@ $(document).ready(function () {
 <p>Let’s work through a sports example since it’s March Madness and my bracket is already busted.</p>
 <p><strong>Background:</strong> I went to Marquette Univeristy and my freshman year was Jimmy Butler’s final season (the 2010-11 season was awesome!)</p>
 <p>So this is the data we’ll work with:</p>
-<div id="marquette-data-for-the-2010-2011-season" class="section level3">
-<h3>Marquette data for the 2010-2011 season</h3>
+<p><strong>Marquette data for the 2010-2011 season</strong></p>
 <ul>
 <li>College basketball gamelogs for <a href="https://www.sports-reference.com/cbb/schools/marquette/2011-gamelogs.html">Marquette University’s 2010-11 season</a>.</li>
 </ul>
-<p>And the game logs for each individual player: + <a href="https://www.sports-reference.com/cbb/players/darius-johnson-odom-1/gamelog/2011">Darius Johson-Odom</a> + <a href="https://www.sports-reference.com/cbb/players/jimmy-butler-1/gamelog/2011">Jimmy Butler</a> + <a href="https://www.sports-reference.com/cbb/players/jae-crowder-1/gamelog/2011">Jae Crowder</a> + <a href="https://www.sports-reference.com/cbb/players/dwight-buycks-1/gamelog/2011">Dwight Buycks</a> + <a href="https://www.sports-reference.com/cbb/players/chris-otule-1/gamelog/2011">Chris Otule</a> + <a href="https://www.sports-reference.com/cbb/players/vander-blue-1/gamelog/2011">Vander Blue</a> + <a href="https://www.sports-reference.com/cbb/players/davante-gardner-1/gamelog/2011">Davante Gardner</a> + <a href="https://www.sports-reference.com/cbb/players/junior-cadougan-1/gamelog/2011">Junior Cadougan</a> + <a href="https://www.sports-reference.com/cbb/players/joe-fulce-1/gamelog/2011">Joe Fulce</a> + <a href="https://www.sports-reference.com/cbb/players/erik-williams-1/gamelog/2011">Erik Williams</a> + <a href="https://www.sports-reference.com/cbb/players/jamail-jones-1/gamelog/2011">Jamail Jones</a> + <a href="https://www.sports-reference.com/cbb/players/reggie-smith-1/gamelog/2011">Reggie Smith</a> + <a href="https://www.sports-reference.com/cbb/players/robert-frozena-1/gamelog/2011">Robert Frozena</a></p>
-<p>Some of the later visualizations in this example will work through this template from Matt Waite at NICAR 2019: <a href="https://mattwaite.github.io/nicar19/CourseMaterials.html" class="uri">https://mattwaite.github.io/nicar19/CourseMaterials.html</a></p>
+<p><strong>And the game logs for each individual player:</strong></p>
+<ul>
+<li><p><a href="https://www.sports-reference.com/cbb/players/darius-johnson-odom-1/gamelog/2011">Darius Johson-Odom</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/jimmy-butler-1/gamelog/2011">Jimmy Butler</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/jae-crowder-1/gamelog/2011">Jae Crowder</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/dwight-buycks-1/gamelog/2011">Dwight Buycks</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/chris-otule-1/gamelog/2011">Chris Otule</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/vander-blue-1/gamelog/2011">Vander Blue</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/davante-gardner-1/gamelog/2011">Davante Gardner</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/junior-cadougan-1/gamelog/2011">Junior Cadougan</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/joe-fulce-1/gamelog/2011">Joe Fulce</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/erik-williams-1/gamelog/2011">Erik Williams</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/jamail-jones-1/gamelog/2011">Jamail Jones</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/reggie-smith-1/gamelog/2011">Reggie Smith</a></p></li>
+<li><p><a href="https://www.sports-reference.com/cbb/players/robert-frozena-1/gamelog/2011">Robert Frozena</a></p></li>
+</ul>
+<p><strong>Some of the later visualizations in this example will work through this template from Matt Waite at NICAR 2019:</strong> <a href="https://mattwaite.github.io/nicar19/CourseMaterials.html" class="uri">https://mattwaite.github.io/nicar19/CourseMaterials.html</a></p>
 <ul>
 <li>data: <a href="https://github.com/mattwaite/NICAR19SportsDataViz">All team game logs for the 2018-19 season</a></li>
 </ul>
 <p><em><strong>All datasets sourced from Sports Reference.</strong></em></p>
 <hr />
-</div>
 <div id="goal" class="section level2">
 <h2>Goal</h2>
 <p>Clean, analyze and visualize these datasets. To do that we’ll work with R’s <code>tidyverse</code> library.</p>
+<pre class="r"><code>#uncomment and run install code if tidyverse is not already running
+#install.packages(&quot;tidyverse&quot;)
+library(tidyverse)
+
+# optional library but could be useful for plotting later
+#install.packages(&quot;lubridate&quot;) #helps us reformat the date column
+library(lubridate)</code></pre>
 <hr />
 </div>
 <div id="clean" class="section level2">
 <h2>Clean</h2>
 <p>We’re going to load this and forget about it for a minute because Matt Waite did the dirty work of cleaning this for us already.</p>
 <pre class="r"><code>all_teams &lt;- read_csv(&quot;data/1819-all-logs.csv&quot;)</code></pre>
-<pre><code>## Warning: Missing column names filled in: 'X1' [1]</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_date(format = &quot;&quot;),
-##   HomeAway = col_character(),
-##   Opponent = col_character(),
-##   W_L = col_character(),
-##   TeamFGPCT = col_double(),
-##   Team3PPCT = col_double(),
-##   TeamFTPCT = col_double(),
-##   Blank = col_character(),
-##   OpponentFGPCT = col_double(),
-##   Opponent3PPCT = col_double(),
-##   OpponentFTPCT = col_double(),
-##   Team = col_character(),
-##   Conference = col_character()
-## )</code></pre>
-<pre><code>## See spec(...) for full column specifications.</code></pre>
 <p>These are gamelogs for <a href="https://www.sports-reference.com/cbb/schools/marquette/2011-gamelogs.html">Marquette University’s 2010-11 season</a>. There’s an option to download <strong>“Get Table as CSV”</strong>, copy the text on the page, paste into a text editor and then save the file as <code>mu-10-11-gamelong.csv</code></p>
-<pre class="r"><code>logs &lt;- read_csv(&quot;data/mu-10-11-gamelog.csv&quot;, skip=1)</code></pre>
-<pre><code>## Warning: Missing column names filled in: 'X3' [3], 'X24' [24]</code></pre>
-<pre><code>## Warning: Duplicated column names deduplicated: 'Opp' =&gt; 'Opp_1' [7],
-## 'FG' =&gt; 'FG_1' [25], 'FGA' =&gt; 'FGA_1' [26], 'FG%' =&gt; 'FG%_1' [27], '3P'
-## =&gt; '3P_1' [28], '3PA' =&gt; '3PA_1' [29], '3P%' =&gt; '3P%_1' [30], 'FT' =&gt;
-## 'FT_1' [31], 'FTA' =&gt; 'FTA_1' [32], 'FT%' =&gt; 'FT%_1' [33], 'ORB' =&gt;
-## 'ORB_1' [34], 'TRB' =&gt; 'TRB_1' [35], 'AST' =&gt; 'AST_1' [36], 'STL' =&gt;
-## 'STL_1' [37], 'BLK' =&gt; 'BLK_1' [38], 'TOV' =&gt; 'TOV_1' [39], 'PF' =&gt;
-## 'PF_1' [40]</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_date(format = &quot;&quot;),
-##   X3 = col_character(),
-##   Opp = col_character(),
-##   `W/L` = col_character(),
-##   `FG%` = col_double(),
-##   `3P%` = col_double(),
-##   `FT%` = col_double(),
-##   X24 = col_character(),
-##   `FG%_1` = col_double(),
-##   `3P%_1` = col_double(),
-##   `FT%_1` = col_double()
-## )</code></pre>
-<pre><code>## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code># we use skip = 1 becuase there is an extra row of label data that we don't need.
+<pre class="r"><code>logs &lt;- read_csv(&quot;data/mu-10-11-gamelog.csv&quot;, skip=1)
+# we use skip = 1 becuase there is an extra row of label data that we don't need.
 colnames(logs)</code></pre>
 <pre><code>##  [1] &quot;G&quot;     &quot;Date&quot;  &quot;X3&quot;    &quot;Opp&quot;   &quot;W/L&quot;   &quot;Tm&quot;    &quot;Opp_1&quot; &quot;FG&quot;   
 ##  [9] &quot;FGA&quot;   &quot;FG%&quot;   &quot;3P&quot;    &quot;3PA&quot;   &quot;3P%&quot;   &quot;FT&quot;    &quot;FTA&quot;   &quot;FT%&quot;  
@@ -215,225 +192,21 @@ clean_logs &lt;- clean_logs %&gt;% select(-X24)</code></pre>
 <p>I followed the same steps as above to save a <code>.csv</code> file for each individual player on the team. This is the hard way but also a good example of how to combine these files into one since they are all formatted the same way.</p>
 <pre class="r"><code># run each group of functions separately
 
-odom &lt;- read_csv(&quot;mu-players/djo-1011.csv&quot;) </code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )</code></pre>
-<pre><code>## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>butler &lt;- read_csv(&quot;mu-players/jbutler-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>crowder &lt;- read_csv(&quot;mu-players/crowder-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>buycks &lt;- read_csv(&quot;mu-players/buycks-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>otule &lt;- read_csv(&quot;mu-players/otule-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_character(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>blue &lt;- read_csv(&quot;mu-players/blue-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>gardner &lt;- read_csv(&quot;mu-players/gardner-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_character(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>cadougan &lt;- read_csv(&quot;mu-players/cadougan-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>fulce &lt;- read_csv(&quot;mu-players/fulce-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>williams &lt;- read_csv(&quot;mu-players/williams-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>jones &lt;- read_csv(&quot;mu-players/jones-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>smith &lt;- read_csv(&quot;mu-players/smith-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code>frozena &lt;- read_csv(&quot;mu-players/frozena-1011.csv&quot;)</code></pre>
-<pre><code>## Parsed with column specification:
-## cols(
-##   .default = col_integer(),
-##   Date = col_character(),
-##   School = col_character(),
-##   X4 = col_character(),
-##   Opponent = col_character(),
-##   Type = col_character(),
-##   X7 = col_character(),
-##   `FG%` = col_double(),
-##   `2P%` = col_double(),
-##   `3P%` = col_double(),
-##   `FT%` = col_double(),
-##   player = col_character()
-## )
-## See spec(...) for full column specifications.</code></pre>
-<pre class="r"><code># add a column for the players name to join easier
+odom &lt;- read_csv(&quot;mu-players/djo-1011.csv&quot;) 
+butler &lt;- read_csv(&quot;mu-players/jbutler-1011.csv&quot;)
+crowder &lt;- read_csv(&quot;mu-players/crowder-1011.csv&quot;)
+buycks &lt;- read_csv(&quot;mu-players/buycks-1011.csv&quot;)
+otule &lt;- read_csv(&quot;mu-players/otule-1011.csv&quot;)
+blue &lt;- read_csv(&quot;mu-players/blue-1011.csv&quot;)
+gardner &lt;- read_csv(&quot;mu-players/gardner-1011.csv&quot;)
+cadougan &lt;- read_csv(&quot;mu-players/cadougan-1011.csv&quot;)
+fulce &lt;- read_csv(&quot;mu-players/fulce-1011.csv&quot;)
+williams &lt;- read_csv(&quot;mu-players/williams-1011.csv&quot;)
+jones &lt;- read_csv(&quot;mu-players/jones-1011.csv&quot;)
+smith &lt;- read_csv(&quot;mu-players/smith-1011.csv&quot;)
+frozena &lt;- read_csv(&quot;mu-players/frozena-1011.csv&quot;)
+
+# add a column for the players name to join easier
 odom$player &lt;- &quot;Darius Johnson-Odom&quot;
 butler$player &lt;- &quot;Jimmy Butler&quot;
 crowder$player &lt;- &quot;Jae Crowder&quot;
@@ -704,11 +477,11 @@ final_plot </code></pre>
 <p>Export filetype:</p>
 <pre class="r"><code># PDF or PNG 
 # to speficiy a chart add a &quot;plot = plot_name&quot; parameter after the file name.
-ggsave(&quot;players-plot.pdf&quot;, plot = all_players, width = 7, height = 10, units = &quot;in&quot;, dpi = 320)
-ggsave(&quot;players-plot.png&quot;, plot = all_players, width = 7, height = 10, units = &quot;in&quot;, dpi = 320)
+ggsave(&quot;exports/players-plot.pdf&quot;, plot = all_players, width = 7, height = 10, units = &quot;in&quot;, dpi = 320)
+ggsave(&quot;exports/players-plot.png&quot;, plot = all_players, width = 7, height = 10, units = &quot;in&quot;, dpi = 320)
 
-ggsave(&quot;big-east-plot.pdf&quot;, plot = final_plot, width = 16, height = 9, units = &quot;in&quot;, dpi = 320)
-ggsave(&quot;big-east-step.png&quot;, plot = final_plot, width = 16, height = 9, units = &quot;in&quot;, dpi = 320)</code></pre>
+ggsave(&quot;exports/big-east-plot.pdf&quot;, plot = final_plot, width = 16, height = 9, units = &quot;in&quot;, dpi = 320)
+ggsave(&quot;exports/big-east-step.png&quot;, plot = final_plot, width = 16, height = 9, units = &quot;in&quot;, dpi = 320)</code></pre>
 </div>
 
 
