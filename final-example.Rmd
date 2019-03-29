@@ -7,15 +7,15 @@ output:
 
 Let's work through a sports example since it's March Madness and my bracket is already busted. 
 
-**Background:** I went to Marquette Univeristy and my freshman year was Jimmy Butler's final season (the 2010-11 season was awesome!)
+**Background:** I went to Marquette Univeristy and my freshman year was Jimmy Butler's final season (2010-11 was awesome!)
 
 So this is the data we'll work with: 
 
-**Marquette data for the 2010-2011 season**
+**Marquette team data**
 
 + College basketball gamelogs for [Marquette University's 2010-11 season](https://www.sports-reference.com/cbb/schools/marquette/2011-gamelogs.html).
 
-**And the game logs for each individual player:** 
+**And the gamelogs for each individual player:** 
 
 + [Darius Johson-Odom](https://www.sports-reference.com/cbb/players/darius-johnson-odom-1/gamelog/2011)
 
@@ -45,7 +45,7 @@ So this is the data we'll work with:
 
 **Some of the later visualizations in this example will work through this template from Matt Waite at NICAR 2019:** [https://mattwaite.github.io/nicar19/CourseMaterials.html](https://mattwaite.github.io/nicar19/CourseMaterials.html)
 
-+ data: [All team game logs for the 2018-19 season](https://github.com/mattwaite/NICAR19SportsDataViz)
++ [All team game logs for the 2018-19 season](https://github.com/mattwaite/NICAR19SportsDataViz)
 
 _**All datasets sourced from Sports Reference.**_
 
@@ -55,20 +55,32 @@ _**All datasets sourced from Sports Reference.**_
 
 Clean, analyze and visualize these datasets. To do that we'll work with R's `tidyverse` library.
 
+To save on typing or copying and pasting all lines of code in this feel free to open the `final-example.Rmd` [from my github repo](https://github.com/erincaughey/usat-nicar-presentation) file in RStudio and run the code chunks.
+
 ```{r libraries, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 #uncomment and run install code if tidyverse is not already running
 #install.packages("tidyverse")
 library(tidyverse)
 
-# optional library but could be useful for plotting later
+# optional library could be useful for plotting later
 #install.packages("lubridate") #helps us reformat the date column
 library(lubridate)
 
 ```
 
+We'll work toward completeing 3 different graphcis. I'll denote which cleaning, analyzing and plotting steps go with each dataset using these labels: 
+
+1. <span style="background-color:#506987; padding: 3px; border-radius: 3px; color: #fff;">MU team</span>
+
+2. <span style="background-color:#ff6347; padding: 3px; border-radius: 3px; color: #fff;">MU individuals</span>
+
+3. <span style="background-color:#89A46F; padding: 3px; border-radius: 3px; color: #fff;">All teams</span>
+
 -----
 
 ## Clean
+
+<span style="background-color:#89A46F; padding: 3px; border-radius: 3px; color: #fff;">All teams</span>
 
 We're going to load this and forget about it for a minute because Matt Waite did the dirty work of cleaning this for us already. 
 
@@ -76,11 +88,14 @@ We're going to load this and forget about it for a minute because Matt Waite did
 all_teams <- read_csv("data/1819-all-logs.csv")
 ```
 
-These are gamelogs for [Marquette University's 2010-11 season](https://www.sports-reference.com/cbb/schools/marquette/2011-gamelogs.html). There's an option to download **"Get Table as CSV"**, copy the text on the page, paste into a text editor and then save the file as `mu-10-11-gamelong.csv`
+<span style="background-color:#506987; padding: 3px; border-radius: 3px; color: #fff;">MU team</span>
+
+These are gamelogs for [Marquette University's 2010-11 season](https://www.sports-reference.com/cbb/schools/marquette/2011-gamelogs.html). There's an option to download the file under **"Share &more"**. Select **"Get Table as CSV"**, copy the text on the page, paste into a text editor and then save the file as `mu-10-11-gamelong.csv`. _Or find the necessary file in the github repo data folder._
 
 ```{r mu gamelogs clean, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 logs <- read_csv("data/mu-10-11-gamelog.csv", skip=1)
 # we use skip = 1 becuase there is an extra row of label data that we don't need.
+# Let's look at the column names or variables for this data
 colnames(logs)
 
 # create a new dataframe 'cleaned_logs' here and rename each column, separate by comma
