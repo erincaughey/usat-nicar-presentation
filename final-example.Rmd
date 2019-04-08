@@ -107,6 +107,8 @@ clean_logs <-
 clean_logs <- clean_logs %>% select(-X24)
 ```
 
+<span style="background-color:#ff6347; padding: 3px; border-radius: 3px; color: #fff;">MU individuals</span>
+
 Now let's combine and clean each of the players gamelog data from Marquette University's 2010-11 roster. 
 
 I followed the same steps as above to save a `.csv` file for each individual player on the team. This is the hard way but also a good example of how to combine these files into one since they are all formatted the same way.
@@ -175,6 +177,8 @@ write_csv(mu_players, "mu-players/all.csv")
 
 ## Analyze
 
+<span style="background-color:#506987; padding: 3px; border-radius: 3px; color: #fff;">MU team</span>
+
 First, let's go back to our Marquette team season logs and look at the score differential.
 
 **TIP:** The `%>%` is the pipe symbol. It help you apply multiple commands to the same dataframe by stringing them together.
@@ -188,6 +192,8 @@ clean_logs %>%
 ```
 
 We'll come back to that later when we plot that dataframe.
+
+<span style="background-color:#ff6347; padding: 3px; border-radius: 3px; color: #fff;">MU individuals</span>
 
 Next, let's jump to individual gamelogs and compare player's overall totals throughout the season.
 
@@ -211,7 +217,6 @@ arrange(mu_players, desc(PTS))
 ```
 
 We can also use filter to see how many players scored above double digits in a game. 
-
 Remember we have 383 rows of data. 
 
 ```{r arrange and filter, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
@@ -227,7 +232,7 @@ Let's go one step further and find the average amount of games DJO scored over 1
 ```{r Ex. DJO PPG, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 filter(more_than_ten, player == "Darius Johnson-Odom")
 ```
-That's 33 records. Or 33 games. And from our `player_totals` dataframe we know that he played a total of 37 games. Simple math to average: `33 / 37 = .8918919` or of the 37 games Darius Johnson-Odom played he scored 10 points or more in 89% of those games.
+That's 33 records. Or 33 games. And from our `player_totals` dataframe we know that he played a total of 37 games. Simple average: `33 / 37 = .8918919` or of the 37 games Darius Johnson-Odom played he scored 10 points or more in 89% of those games.
 
 But of course there's a simpler way to find simple statistics on individual players or datasets. The `summary()` function.
 
@@ -242,11 +247,15 @@ summary(odom)
 
 ## Visualizing
 
+<span style="background-color:#506987; padding: 3px; border-radius: 3px; color: #fff;">MU team</span>
+
 First let's again revisit the Marquette team gamelogs and create a bar graph to show wins and losses for Marquette's 2010-11 season based on the point differential.
 
 ```{r bar chart, echo=TRUE, message=FALSE, warning=FALSE, paged.print=TRUE}
 ggplot() + geom_bar(data=arranged_logs, aes(date, weight=differential))
 ```
+
+<span style="background-color:#ff6347; padding: 3px; border-radius: 3px; color: #fff;">MU individuals</span>
 
 And now a look at the individual Marquette players for that season.
 
@@ -290,6 +299,8 @@ all_players <- ggplot(mu_players, aes(date, PTS)) +
 
 all_players
 ```
+
+<span style="background-color:#89A46F; padding: 3px; border-radius: 3px; color: #fff;">All teams</span>
 
 Now let's step back and look at all NCAA teams 2018 season gamelogs as of the last week in February.
 
@@ -391,7 +402,6 @@ final_plot <- ggplot() +
 # theme_minimal() takes out the gray grid background and simplifies our axes a little more
 final_plot 
 ```
-
 
 ## Export your work
 
